@@ -1,0 +1,264 @@
+@font-face {
+  font-family: "Petrona";
+  src: url("/desktop/portfolio/Petrona-VariableFont_wght.woff2") format("woff2"),
+    url("/desktop/portfolio/Petrona-Italic-VariableFont_wght.woff2") format("woff2");
+}
+
+body {
+  background-color: #F9F5EE;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {..} */
+@media (max-width: 600px) {
+  .grid-header {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {..} */
+@media (min-width: 600px) {
+  .grid-header {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {..} */
+@media (min-width: 768px) {
+  .grid-header {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {..} */
+@media (min-width: 992px) {
+  .grid-header {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+/* @media only screen and (min-width: 1200px) {..} */
+@media (min-width: 1200x) {
+  .grid-header {
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+}
+
+.grid-header {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1rem;
+  grid-template-rows: repeat (6, 1fr);
+  row-gap: 1rem;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1rem;
+}
+
+a {
+  text-decoration: none;
+  color: #002480;
+}
+
+a:visited {
+  color: #002480;
+}
+
+a:hover {
+  color: #1347D2;
+}
+
+nav {
+  text-align: right;
+}
+
+nav ul {
+  list-style-type: none;
+  font-family: Petrona;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 22px;
+  line-height: 25px;
+
+  color: #011D67;
+}
+
+nav li {
+  display: inline;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.logo {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 2;
+}
+
+.h1 {
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 2;
+  font-family: Petrona;
+  font-style: normal;
+  font-variation-settings: 'wght'500;
+  font-size: 24px;
+  line-height: 62px;
+  color: #FF400F;
+}
+
+.work {
+  height: 100vh;
+}
+
+.work-mi {
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+.work-kpap {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+.work-solcom {
+  grid-column-start: 4;
+  grid-column-end: 6;
+}
+
+.about {
+  height: 100vh;
+  grid-column-start: 2;
+  grid-column-end: 6;
+}
+
+.I-am {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.I-believe-that {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.Im-excited-by {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+.contact {
+  height: 100vh;
+  grid-column-start: 2;
+  grid-column-end: 4;
+}
+
+h2 {
+  font-family: Petrona;
+  font-style: normal;
+  font-variation-settings: 'wght'700;
+  font-size: 22px;
+  line-height: 20px;
+  font-variant: small-caps;
+  color: #011D67;
+}
+
+p {
+  max-width: 65ch;
+  font-family: Petrona;
+  font-style: normal;
+  font-variation-settings: 'wght'375;
+  font-size: 18px;
+  line-height: 150%;
+  color: #011D67;
+}
+
+.link {
+  display: inline;
+  max-width: 65ch;
+  font-family: Petrona;
+  font-style: normal;
+  font-variation-settings: 'wght'700;
+  font-size: 18px;
+  line-height: 150%;
+  padding-right: 1rem;
+  color: #011D67;
+}
+
+.headshot {
+  border-radius: 4px;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  max-width: 100%;
+  height: auto;
+}
+
+/* * {    
+    position: absolute;
+width: 446px;
+height: 310px;
+left: 690px;
+top: 357px;
+
+font-family: Petrona;
+font-style: normal;
+font-weight: normal;
+font-size: 55px;
+line-height: 62px;
+color: #FF400F;
+  }
+  body {
+      background-color: #F9F5EE;
+      ;
+  }
+  h1 {
+      font-family: Petrona, Arial, Helvetica, sans-serif;
+      font-size: 6.5rem;
+  }
+  h2 {
+    font-family: Petrona, Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    color: #055A5B;
+}
+h3 {
+    font-family: Petrona, Arial, Helvetica, sans-serif;
+}
+h4 {
+    font-family: Petrona, Arial, Helvetica, sans-serif;
+}
+
+  * p{
+    font-family: Petrona, Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    color: #435058;
+  } */

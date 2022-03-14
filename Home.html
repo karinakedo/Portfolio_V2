@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="CSS/reset.css" type="text/css">
     <link rel="stylesheet" href="CSS/style.css" type="text/css">
 
     <!-- JavaScript -->
@@ -23,7 +24,7 @@
 
 </head>
 
-<body>
+<body class="body">
     <nav>
         <ul>
             <li><a href=#Work>Work</a></li>
@@ -104,40 +105,41 @@
                         </defs>
                     </svg>
                 </div>
-                <div class="h1">
-                    <h1>Hi, I'm Karina.<br> I'm a UX designer passionate about sustainable global development and honing
-                        my craft.</h1>
+                <div class="headline">
+                    <h1>Hi, I'm Karina.</h1>
+                    <p class="blurb">I'm a UX designer passionate about sustainable global development and honing my
+                        craft.</p>
                 </div>
             </div>
 
     </header>
-    <div class="work">
-        <div class="grid">
+    <div class="section-work">
+        <div class="grid-work">
+            <h2 class="Work">Work</h2>
             <div class="work-mi">
-                <h2>modernizing booking experience on hotel booking website</h2>
+                <h3>modernizing booking experience on hotel booking website</h3>
                 <p>Redesigning the search results page and product detail view of a major international hotel company
                 </p>
             </div>
-        </div>
-        <div class="grid">
             <div class="work-kpap">
-                <h2>Promoting responsible travel and ethical tourism on mount kilimanjaro</h2>
+                <h3>Promoting responsible travel and ethical tourism on mount kilimanjaro</h3>
                 <p>Defining information architecture and visual design for the Kilimanjaro Porters Assistance Project
                     website
                 </p>
+
             </div>
-        </div>
-        <div class="grid">
             <div class="work-solcom">
-                <h2>enabling access to health products in the dominican republic</h2>
+                <h3>enabling access to health products in the dominican republic</h3>
                 <p>Conducting ethnographic user research to ensure product-market fit and access</p>
             </div>
+
         </div>
     </div>
-    <div class="about">
-        <div class="grid">
+    <div class="section-about">
+        <div class="grid-about">
+            <h2 class="About">About</h2>
             <div class="I-am">
-                <h2>i am...</h2>
+                <h3>i am...</h3>
                 <p>a multi-disciplinary product designer. I'm currently at Deloitte Digital, where I've focused on
                     projects
                     from
@@ -152,16 +154,18 @@
                     University, with a focus on global development.</p>
             </div>
             <div class="I-believe-that">
-                <h2>i believe that...</h2>
+                <h3>i believe that...</h3>
                 <p>having a diversified skillset across multiple disciplines makes for an effective designer. I’m as
                     eager a
-                    student of visual design as I am of user research, content strategy, and front-end development. In a
-                    team, you can count on me to communicate with empathy and candor, to design with intention, and to
+                    student of visual design as I am of user research, content strategy, and front-end development.
+                    In a
+                    team, you can count on me to communicate with empathy and candor, to design with intention, and
+                    to
                     seek
                     constant improvement. Here is some of what guides me.</p>
             </div>
             <div class="Im-excited-by">
-                <h2>i'm excited by...</h2>
+                <h3>i'm excited by...</h3>
                 <p>how technology can nudge us toward more sustainable systems and can better adapt to the needs of
                     non-digital
                     natives. Outside of design work, you'll find me reading books, climbing walls, and making travel
@@ -170,28 +174,36 @@
             </div>
         </div>
     </div>
-    <div class="grid">
-        <div class="contact">
-            <h2>Contact</h2>
-            <p>If you want to know more, chat about product design, or hear the story of when I interrupted J.K.
-                Rowling's salad
-                course, don't hesitate to contact me. </p>
-            <p class="link">
-                <a href="mailto: hello@karinakedo.com" target="_blank">Email</a>
-            </p>
-            <p class="link"> <a href="https://www.linkedin.com/in/karinakedo/" target="_blank">LinkedIn</a></p>
-            <p class="link"><a href="https://twitter.com/karinakedo" target="_blank">Twitter</a></p>
-            <p class="link"><a href="https://dribbble.com/karinakedo" target="_blank">Dribbble</a></p>
+    </div>
+    <div class="section-contact">
+        <div class="grid-contact">
+            <h2 class="Contact">Contact</h2>
+            <div class="contact-me">
+                <p>Contact me if you want to know more, chat about product design, or hear the story of
+                    <a class="hover_img" href="#">when I interrupted J.K. Rowling's salad course.<span>
+                            <img src="Images/jkrowling.jpeg" alt="Photo of the author standing next to J.K. Rowling."
+                                height="300px" />
+                        </span>
+                    </a>
+                </p>
 
+                <p> </p>
+            </div>
+
+
+            <div class="grid-contact-link">
+                <p class="link-email">
+                    <a href="mailto: hello@karinakedo.com" target="_blank">Email</a>
+                </p>
+                <p class="link-linkedin"> <a href="https://www.linkedin.com/in/karinakedo/" target="_blank">LinkedIn</a>
+                </p>
+                <p class="link-twitter"><a href="https://twitter.com/karinakedo" target="_blank">Twitter</a></p>
+                <p class="link-dribbble"><a href="https://dribbble.com/karinakedo" target="_blank">Dribbble</a></p>
+            </div>
+            <img class="headshot" src="Images/Headshot.jpg"
+                alt="Headshot of the author. I'm wearing a white and black polka dot shirt in front of a green wall.">
         </div>
-        <img class="headshot" src="Images/Headshot.jpg" alt="Karina Kedo headshot">
-        </p>
-        </p>
-        </p>
     </div>
-    </div>
-</body>
-</div>
 </body>
 
 </html>

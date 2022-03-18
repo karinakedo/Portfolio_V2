@@ -48,7 +48,7 @@ nav ul {
   list-style-type: none;
   font-family: Petrona;
   font-style: normal;
-  font-weight: 900;
+  font-variation-settings: 'wght' 900;
   font-size: 22px;
   line-height: 25px;
   color: #011D67;
@@ -80,7 +80,7 @@ nav li {
 }
 
 h1 {
-  font-variation-settings: 'wght'800;
+  font-variation-settings: 'wght' 800;
   padding-bottom: 1rem;
 }
 
@@ -95,7 +95,7 @@ h1 {
   font-size: 28px;
   line-height: 42px;
   color: #FF400F;
-  font-variation-settings: 'wght'500;
+  font-variation-settings: 'wght' 500;
 }
 
 /* i {
@@ -121,7 +121,7 @@ h1 {
 h2 {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 36px;
   line-height: 20px;
   color: #FF400F;
@@ -130,7 +130,7 @@ h2 {
 h3 {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 22px;
   line-height: 20px;
   font-variant: small-caps;
@@ -142,7 +142,7 @@ p {
   max-width: 65ch;
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'375;
+  font-variation-settings: 'wght' 375;
   font-size: 18px;
   line-height: 150%;
   color: #011D67;
@@ -243,7 +243,7 @@ p {
   max-width: 65ch;
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'375;
+  font-variation-settings: 'wght' 375;
   font-size: 18px;
   line-height: 150%;
   color: #011D67;
@@ -264,7 +264,7 @@ p {
   grid-row: 3;
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -273,7 +273,7 @@ p {
 .link-email {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -283,7 +283,7 @@ p {
 .link-linkedin {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -293,7 +293,7 @@ p {
 .link-twitter {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -303,7 +303,7 @@ p {
 .link-dribbble {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -356,7 +356,7 @@ nav ul {
   list-style-type: none;
   font-family: Petrona;
   font-style: normal;
-  font-weight: 900;
+  font-variation-settings: 'wght' 900;
   font-size: 22px;
   line-height: 25px;
   color: #011D67;
@@ -388,7 +388,7 @@ nav li {
 }
 
 h1 {
-  font-variation-settings: 'wght'800;
+  font-variation-settings: 'wght' 800;
   padding-bottom: 1rem;
 }
 
@@ -402,7 +402,7 @@ h1 {
   font-size: 48px;
   line-height: 60px;
   color: #FF400F;
-  font-variation-settings: 'wght'500;
+  font-variation-settings: 'wght' 500;
 }
 
 /* i {
@@ -429,7 +429,7 @@ h1 {
 h2 {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 36px;
   line-height: 20px;
   color: #FF400F;
@@ -438,7 +438,7 @@ h2 {
 h3 {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 22px;
   line-height: 20px;
   font-variant: small-caps;
@@ -450,7 +450,7 @@ p {
   max-width: 65ch;
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'375;
+  font-variation-settings: 'wght' 375;
   font-size: 18px;
   line-height: 150%;
   color: #011D67;
@@ -553,7 +553,7 @@ p {
   max-width: 65ch;
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'375;
+  font-variation-settings: 'wght' 375;
   font-size: 18px;
   line-height: 150%;
   color: #011D67;
@@ -574,7 +574,7 @@ p {
   grid-row: 2;
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -583,7 +583,7 @@ p {
 .link-email {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -593,7 +593,7 @@ p {
 .link-linkedin {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -603,7 +603,7 @@ p {
 .link-twitter {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -613,7 +613,7 @@ p {
 .link-dribbble {
   font-family: Petrona;
   font-style: normal;
-  font-variation-settings: 'wght'700;
+  font-variation-settings: 'wght' 700;
   font-size: 18px;
   line-height: 150%;
   color: #1347D2;
@@ -666,7 +666,7 @@ p {
     list-style-type: none;
     font-family: Petrona;
     font-style: normal;
-    font-weight: 900;
+    font-variation-settings: 'wght' 900;
     font-size: 22px;
     line-height: 25px;
     color: #011D67;
@@ -698,7 +698,7 @@ p {
   }
 
   h1 {
-    font-variation-settings: 'wght'800;
+    font-variation-settings: 'wght' 800;
     padding-bottom: 1rem;
   }
 
@@ -713,7 +713,7 @@ p {
     font-size: 28px;
     line-height: 42px;
     color: #FF400F;
-    font-variation-settings: 'wght'500;
+    font-variation-settings: 'wght' 500;
   }
 
   /* i {
@@ -739,7 +739,7 @@ p {
   h2 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 36px;
     line-height: 20px;
     color: #FF400F;
@@ -748,7 +748,7 @@ p {
   h3 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 22px;
     line-height: 20px;
     font-variant: small-caps;
@@ -760,7 +760,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -861,7 +861,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -882,7 +882,7 @@ p {
     grid-row: 3;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -891,7 +891,7 @@ p {
   .link-email {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -901,7 +901,7 @@ p {
   .link-linkedin {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -911,7 +911,7 @@ p {
   .link-twitter {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -921,7 +921,7 @@ p {
   .link-dribbble {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -974,7 +974,7 @@ p {
     list-style-type: none;
     font-family: Petrona;
     font-style: normal;
-    font-weight: 900;
+    font-variation-settings: 'wght' 900;
     font-size: 22px;
     line-height: 25px;
     color: #011D67;
@@ -1006,7 +1006,7 @@ p {
   }
 
   h1 {
-    font-variation-settings: 'wght'800;
+    font-variation-settings: 'wght' 800;
     padding-bottom: 1rem;
   }
 
@@ -1021,7 +1021,7 @@ p {
     font-size: 32px;
     line-height: 48px;
     color: #FF400F;
-    font-variation-settings: 'wght'500;
+    font-variation-settings: 'wght' 500;
   }
 
   /* i {
@@ -1047,7 +1047,7 @@ p {
   h2 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 36px;
     line-height: 20px;
     color: #FF400F;
@@ -1056,7 +1056,7 @@ p {
   h3 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 22px;
     line-height: 20px;
     font-variant: small-caps;
@@ -1068,7 +1068,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -1169,7 +1169,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -1199,7 +1199,7 @@ p {
   .link-email {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1209,7 +1209,7 @@ p {
   .link-linkedin {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1229,7 +1229,7 @@ p {
   .link-dribbble {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1282,7 +1282,7 @@ p {
     list-style-type: none;
     font-family: Petrona;
     font-style: normal;
-    font-weight: 900;
+    font-variation-settings: 'wght' 900;
     font-size: 22px;
     line-height: 25px;
     color: #011D67;
@@ -1314,7 +1314,7 @@ p {
   }
 
   h1 {
-    font-variation-settings: 'wght'800;
+    font-variation-settings: 'wght' 800;
     padding-bottom: 1rem;
   }
 
@@ -1328,7 +1328,7 @@ p {
     font-size: 36px;
     line-height: 52px;
     color: #FF400F;
-    font-variation-settings: 'wght'500;
+    font-variation-settings: 'wght' 500;
   }
 
   /* i {
@@ -1354,7 +1354,7 @@ p {
   h2 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 36px;
     line-height: 20px;
     color: #FF400F;
@@ -1363,7 +1363,7 @@ p {
   h3 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 22px;
     line-height: 20px;
     font-variant: small-caps;
@@ -1375,7 +1375,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -1476,7 +1476,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -1497,7 +1497,7 @@ p {
     grid-row: 3;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1506,7 +1506,7 @@ p {
   .link-email {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1526,7 +1526,7 @@ p {
   .link-twitter {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1536,7 +1536,7 @@ p {
   .link-dribbble {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1589,7 +1589,7 @@ p {
     list-style-type: none;
     font-family: Petrona;
     font-style: normal;
-    font-weight: 900;
+    font-variation-settings: 'wght' 900;
     font-size: 22px;
     line-height: 25px;
     color: #011D67;
@@ -1621,7 +1621,7 @@ p {
   }
 
   h1 {
-    font-variation-settings: 'wght'800;
+    font-variation-settings: 'wght' 800;
     padding-bottom: 1rem;
   }
 
@@ -1635,7 +1635,7 @@ p {
     font-size: 36px;
     line-height: 52px;
     color: #FF400F;
-    font-variation-settings: 'wght'500;
+    font-variation-settings: 'wght' 500;
   }
 
   /* i {
@@ -1661,7 +1661,7 @@ p {
   h2 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 36px;
     line-height: 20px;
     color: #FF400F;
@@ -1670,7 +1670,7 @@ p {
   h3 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 22px;
     line-height: 20px;
     font-variant: small-caps;
@@ -1682,7 +1682,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -1783,7 +1783,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -1804,7 +1804,7 @@ p {
     grid-row: 2;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1813,7 +1813,7 @@ p {
   .link-email {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1823,7 +1823,7 @@ p {
   .link-linkedin {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1833,7 +1833,7 @@ p {
   .link-twitter {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1843,7 +1843,7 @@ p {
   .link-dribbble {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -1929,7 +1929,7 @@ p {
   }
 
   h1 {
-    font-variation-settings: 'wght'800;
+    font-variation-settings: 'wght' 800;
     padding-bottom: 1rem;
   }
 
@@ -1943,7 +1943,7 @@ p {
     font-size: 48px;
     line-height: 60px;
     color: #FF400F;
-    font-variation-settings: 'wght'500;
+    font-variation-settings: 'wght' 500;
   }
 
   /* i {
@@ -1969,7 +1969,7 @@ p {
   h2 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 36px;
     line-height: 20px;
     color: #FF400F;
@@ -1978,7 +1978,7 @@ p {
   h3 {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 22px;
     line-height: 20px;
     font-variant: small-caps;
@@ -1990,7 +1990,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -2091,7 +2091,7 @@ p {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'375;
+    font-variation-settings: 'wght' 375;
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
@@ -2112,7 +2112,7 @@ p {
     grid-row: 2;
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -2121,7 +2121,7 @@ p {
   .link-email {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -2131,7 +2131,7 @@ p {
   .link-linkedin {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -2141,7 +2141,7 @@ p {
   .link-twitter {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;
@@ -2151,7 +2151,7 @@ p {
   .link-dribbble {
     font-family: Petrona;
     font-style: normal;
-    font-variation-settings: 'wght'700;
+    font-variation-settings: 'wght' 700;
     font-size: 18px;
     line-height: 150%;
     color: #1347D2;

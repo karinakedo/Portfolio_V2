@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Petrona";
-  src: url("Fonts/Petrona-VariableFont_wght.woff2") format("woff2"),
-    url("Fonts/Petrona-Italic-VariableFont_wght.woff2") format("woff2");
+  src: url("/Fonts/Petrona-VariableFont_wght.woff2") format("woff2"),
+    url("/Fonts/Petrona-Italic-VariableFont_wght.woff2") format("woff2");
 }
 
 * {

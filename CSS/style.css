@@ -1318,6 +1318,7 @@ p {
   h1 {
     font-weight: 800;
     padding-bottom: 1rem;
+    text-align: left;
   }
 
   .blurb {
@@ -1331,6 +1332,7 @@ p {
     line-height: 52px;
     color: #FF400F;
     font-weight: 500;
+    text-align: left;
   }
 
   /* i {
@@ -1626,6 +1628,7 @@ p {
   h1 {
     font-weight: 800;
     padding-bottom: 1rem;
+    text-align: left;
   }
 
   .blurb {
@@ -1639,6 +1642,7 @@ p {
     line-height: 52px;
     color: #FF400F;
     font-weight: 500;
+    text-align: left;
   }
 
   /* i {
@@ -1935,6 +1939,7 @@ p {
   h1 {
     font-weight: 800;
     padding-bottom: 1rem;
+    text-align: left;
   }
 
   .blurb {
@@ -1948,6 +1953,7 @@ p {
     line-height: 60px;
     color: #FF400F;
     font-weight: 500;
+    text-align: left;
   }
 
   /* i {

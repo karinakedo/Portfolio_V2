@@ -2,7 +2,6 @@
   font-family: "Petrona";
   src: url("Petrona-VariableFont_wght.woff2") format("woff2 supports variations"),
     url("Petrona-VariableFont_wght.woff2") format("woff2");
-  font-style: normal;
   font-weight: 100 900;
 }
 

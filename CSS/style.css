@@ -1333,6 +1333,7 @@ p {
     color: #FF400F;
     font-weight: 500;
     text-align: left;
+    max-width: 17ch;
   }
 
   /* i {
@@ -1643,6 +1644,7 @@ p {
     color: #FF400F;
     font-weight: 500;
     text-align: left;
+    max-width: 17ch;
   }
 
   /* i {
@@ -1954,6 +1956,7 @@ p {
     color: #FF400F;
     font-weight: 500;
     text-align: left;
+    max-width: 17ch;
   }
 
   /* i {

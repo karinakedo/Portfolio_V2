@@ -1919,7 +1919,7 @@ p {
 
   .headline {
     grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-end: 7;
     grid-row-start: 2;
     grid-row-end: auto;
     font-family: Petrona;

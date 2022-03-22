@@ -78,6 +78,7 @@ nav li {
   font-size: 28px;
   line-height: 42px;
   color: #FF400F;
+  max-width: 16ch;
 }
 
 h1 {
@@ -115,7 +116,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 1rem;
-  grid-template-rows: repeat (4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 1rem;
 }
 
@@ -183,7 +184,7 @@ p {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 1rem;
-  grid-template-rows: repeat (4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 1rem;
 }
 
@@ -423,7 +424,7 @@ h1 {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 1rem;
-  grid-template-rows: repeat (4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 1rem;
 }
 
@@ -492,7 +493,7 @@ p {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   column-gap: 1rem;
-  grid-template-rows: repeat (4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 1rem;
 }
 
@@ -733,7 +734,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -801,7 +802,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1004,6 +1005,7 @@ p {
     font-size: 36px;
     line-height: 52px;
     color: #FF400F;
+    max-width: 16ch;
   }
 
   h1 {
@@ -1023,6 +1025,7 @@ p {
     line-height: 48px;
     color: #FF400F;
     font-weight: 500;
+    max-width: 16ch;
   }
 
   /* i {
@@ -1041,7 +1044,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1109,7 +1112,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1313,6 +1316,7 @@ p {
     line-height: 52px;
     color: #FF400F;
     text-align: left;
+    max-width: 16ch;
   }
 
   h1 {
@@ -1333,7 +1337,7 @@ p {
     color: #FF400F;
     font-weight: 500;
     text-align: left;
-    max-width: 17ch;
+    max-width: 16ch;
   }
 
   /* i {
@@ -1352,7 +1356,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1420,7 +1424,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1624,6 +1628,7 @@ p {
     line-height: 52px;
     color: #FF400F;
     text-align: left;
+    max-width: 16ch;
   }
 
   h1 {
@@ -1644,7 +1649,7 @@ p {
     color: #FF400F;
     font-weight: 500;
     text-align: left;
-    max-width: 17ch;
+    max-width: 16ch;
   }
 
   /* i {
@@ -1663,7 +1668,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1731,7 +1736,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -1936,6 +1941,7 @@ p {
     line-height: 60px;
     color: #FF400F;
     text-align: left;
+    max-width: 16ch;
   }
 
   h1 {
@@ -1956,7 +1962,7 @@ p {
     color: #FF400F;
     font-weight: 500;
     text-align: left;
-    max-width: 17ch;
+    max-width: 16ch;
   }
 
   /* i {
@@ -1975,7 +1981,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 
@@ -2043,7 +2049,7 @@ p {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     column-gap: 1rem;
-    grid-template-rows: repeat (4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
     row-gap: 1rem;
   }
 

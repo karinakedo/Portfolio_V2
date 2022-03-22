@@ -1,7 +1,7 @@
 @font-face {
   font-family: "Petrona";
-  src: url("Petrona-VariableFont_wght.tttf") format("truetype supports variations"),
-    url("Petrona-VariableFont_wght.tttf") format("truetype");
+  src: url("Petrona-VariableFont_wght.ttf") format("truetype supports variations"),
+    url("Petrona-VariableFont_wght.ttf") format("truetype");
   font-weight: 100 900;
 }
 

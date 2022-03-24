@@ -809,7 +809,8 @@ p {
   .About {
     grid-column: 1 / 2;
     grid-row: 1;
-    justify-self: start
+    justify-self: start;
+    align-self: center;
   }
 
   .I-am {
@@ -1119,7 +1120,8 @@ p {
   .About {
     grid-column: 1 / 2;
     grid-row: 1;
-    justify-self: start
+    justify-self: start;
+    align-self: center;
   }
 
   .I-am {
@@ -1431,7 +1433,8 @@ p {
   .About {
     grid-column: 1 / 2;
     grid-row: 1;
-    justify-self: start
+    justify-self: start;
+    align-self: center;
   }
 
   .I-am {
@@ -1744,6 +1747,7 @@ p {
     grid-column: 1 / 2;
     grid-row: 1;
     justify-self: end;
+    align-self: center;
   }
 
   .I-am {
@@ -2057,6 +2061,7 @@ p {
     grid-column: 1 / 2;
     grid-row: 1;
     justify-self: end;
+    align-self: center;
   }
 
   .I-am {

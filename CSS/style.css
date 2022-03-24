@@ -1747,7 +1747,7 @@ p {
     grid-column: 1 / 2;
     grid-row: 1;
     justify-self: end;
-    align-self: center;
+    align-self: start;
   }
 
   .I-am {

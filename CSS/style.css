@@ -763,7 +763,7 @@ p {
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     color: #011D67;
   }
@@ -1928,7 +1928,7 @@ p {
   } */
 
   .logo {
-    grid-column: 2 / 4;
+    grid-column: 2;
     grid-row: 2;
     grid-row-end: auto;
     align-self: center;

@@ -1614,7 +1614,7 @@ p {
   } */
 
   .logo {
-    grid-column: 2 / 4;
+    grid-column: 2;
     grid-row: 2;
     grid-row-end: auto;
     align-self: center;

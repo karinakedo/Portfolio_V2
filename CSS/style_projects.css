@@ -15,12 +15,13 @@
 }
 
 .body {
+  display: grid;
   background-color: #F9F5EE;
   margin-left: 5vw;
   margin-right: 5vw;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 394px) {
   /*   .wrapper {
     display: flex;
     margin: auto;
@@ -34,6 +35,13 @@
     column-gap: 1rem;
     row-gap: 1rem;
   } */
+
+  .body {
+    display: grid;
+    background-color: #F9F5EE;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
 
   a {
     text-decoration: none;
@@ -140,37 +148,80 @@
     margin-bottom: 1rem;
   }
 
-  .maintenance-guides {
-    width: 100%;
+  .maintenance-guides-grid {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: repeat(4, 1fr) min-content;
+    max-width: 90vw;
+    max-height: 100vh;
   }
 
   .maintenance-guide1 {
-
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    max-width: 100%;
+    max-height: 100%;
   }
 
   .maintenance-guide2 {
-    position: relative;
-    top: -140px;
-    left: 40px;
-    z-index: 1;
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    max-width: 100%;
+    max-height: 100%;
   }
 
-  .sketch1 {}
+  .maintenance-caption {
+    grid-column: 1 / 4;
+    grid-row-start: 5;
+  }
 
-  .sketch2 {}
+  .sketch-grid {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: repeat(6 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .sketch1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .sketch2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    max-width: 100%;
+  }
 
   .solcom-images {
-    max-width: 90vw
+    max-width: 90vw;
+    margin-bottom: 1rem;
   }
 }
 
-@media (min-width: 481px) {
-  .grid-content {
+@media (min-width: 395px) {
+  /*   .wrapper {
+  display: flex;
+  margin: auto;
+  padding-right: 5vw;
+  padding-left: 5vw;
+}
+
+.grid-content {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 1rem;
+  row-gap: 1rem;
+} */
+
+  .body {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 1rem;
-    grid-template-rows: 1fr 1fr .5fr 1fr 1fr;
-    row-gap: 1rem;
+    background-color: #F9F5EE;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   a {
@@ -189,20 +240,21 @@
     font-family: Petrona;
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    line-height: 20px;
+    font-size: 32px;
+    line-height: 48px;
     color: #FF400F;
+    margin-top: 1rem;
   }
 
   h2 {
     font-family: Petrona;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 28px;
+    line-height: 24px;
     font-variant: small-caps;
     color: #002480;
-    padding-bottom: 1rem;
+    margin-bottom: 1rem;
   }
 
   h3 {
@@ -210,30 +262,118 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 20px;
-    font-variant: small-caps;
-    color: #002480;
-    padding-bottom: 1rem;
+    line-height: 150%;
+    color: #0487d3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   p {
-    max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     color: #011D67;
+    padding-bottom: 1rem;
+  }
+
+  ul {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 16px;
+    line-height: 150%;
+    color: #011D67;
+    padding-bottom: 1rem;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .img_container_ilac img {
+    width: 100%;
+    height: fill-container;
+  }
+
+  .img_container_filterpure img {
+    width: 100%;
+    height: fill-container;
+  }
+
+  figcaption {
+    font-family: Petrona-Italic;
+    font-style: 1;
+    font-weight: 375;
+    font-size: 14px;
+    line-height: 125%;
+    color: #011D67;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+  }
+
+  .maintenance-guides-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr) min-content;
+    max-width: 90vw;
+  }
+
+  .maintenance-guide1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-guide2 {
+    grid-column: 3 / 7;
+    grid-row: 2 / 5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-caption {
+    grid-column: 1 / 7;
+    grid-row-start: 5;
+  }
+
+  .sketch-grid {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: repeat(6 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .sketch1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .sketch2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    max-width: 100%;
+  }
+
+  .solcom-images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
   }
 }
 
 @media (min-width: 769px) {
   .grid-content {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 1rem;
-    grid-template-rows: 1fr 1fr .5fr 1fr 1fr;
-    row-gap: 1rem;
+    background-color: #F9F5EE;
+    margin-left: 10vw;
+    margin-right: 10vw;
   }
 
   a {
@@ -253,16 +393,17 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 20px;
+    line-height: 52px;
     color: #FF400F;
+    margin-top: 1rem;
   }
 
   h2 {
     font-family: Petrona;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 28px;
+    line-height: 22px;
     font-variant: small-caps;
     color: #002480;
     padding-bottom: 1rem;
@@ -273,30 +414,119 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 20px;
-    font-variant: small-caps;
-    color: #002480;
-    padding-bottom: 1rem;
+    line-height: 150%;
+    color: #0487d3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   p {
-    max-width: 65ch;
+    max-width: 75ch;
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
-    font-size: 18px;
+    font-size: 16px;
     line-height: 150%;
     color: #011D67;
+  }
+
+  ul {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 16px;
+    line-height: 150%;
+    color: #011D67;
+    padding-bottom: 1rem;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .img_container_ilac img {
+    width: 80%;
+    height: fill-container;
+  }
+
+  .img_container_filterpure img {
+    width: 80%;
+    height: fill-container;
+  }
+
+  figcaption {
+    font-family: Petrona-Italic;
+    font-style: 1;
+    font-weight: 375;
+    font-size: 14px;
+    line-height: 125%;
+    color: #011D67;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+
+  .maintenance-guides-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr) min-content;
+    max-width: 90vw;
+  }
+
+  .maintenance-guide1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-guide2 {
+    grid-column: 3 / 7;
+    grid-row: 2 / 5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-caption {
+    grid-column: 1 / 7;
+    grid-row-start: 5;
+  }
+
+  .sketch-grid {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: repeat(6 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .sketch1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .sketch2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    max-width: 100%;
+  }
+
+  .solcom-images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
   }
 }
 
 @media (min-width: 1025px) {
   .grid-content {
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    column-gap: 1rem;
-    grid-template-rows: 1fr 1fr .5fr 1fr 1fr;
-    row-gap: 1rem;
+    background-color: #F9F5EE;
+    margin-left: 15vw;
+    margin-right: 15vw;
   }
 
   a {
@@ -316,16 +546,17 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 20px;
+    line-height: 52px;
     color: #FF400F;
+    margin-top: 1rem;
   }
 
   h2 {
     font-family: Petrona;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 28px;
+    line-height: 22px;
     font-variant: small-caps;
     color: #002480;
     padding-bottom: 1rem;
@@ -336,14 +567,13 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 20px;
-    font-variant: small-caps;
-    color: #002480;
-    padding-bottom: 1rem;
+    line-height: 150%;
+    color: #0487d3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   p {
-    max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -351,8 +581,97 @@
     line-height: 150%;
     color: #011D67;
   }
-}
 
+  ul {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 16px;
+    line-height: 150%;
+    color: #011D67;
+    padding-bottom: 1rem;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .img_container_ilac img {
+    width: 80%;
+    height: fill-container;
+  }
+
+  .img_container_filterpure img {
+    width: 80%;
+    height: fill-container;
+  }
+
+  figcaption {
+    font-family: Petrona-Italic;
+    font-style: 1;
+    font-weight: 375;
+    font-size: 14px;
+    line-height: 125%;
+    color: #011D67;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+
+  .maintenance-guides-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr) min-content;
+    max-width: 90vw;
+  }
+
+  .maintenance-guide1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-guide2 {
+    grid-column: 3 / 7;
+    grid-row: 2 / 5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-caption {
+    grid-column: 1 / 7;
+    grid-row-start: 5;
+  }
+
+  .sketch-grid {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: repeat(6 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .sketch1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .sketch2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    max-width: 100%;
+  }
+
+  .solcom-images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+}
 
 @media (min-width: 1200px) {
   .grid-content {
@@ -380,7 +699,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 20px;
+    line-height: 52px;
     color: #FF400F;
   }
 
@@ -388,8 +707,8 @@
     font-family: Petrona;
     font-style: normal;
     font-weight: 700;
-    font-size: 22px;
-    line-height: 20px;
+    font-size: 28px;
+    line-height: 22px;
     font-variant: small-caps;
     color: #002480;
     padding-bottom: 1rem;
@@ -400,10 +719,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 22px;
-    line-height: 20px;
-    font-variant: small-caps;
-    color: #002480;
-    padding-bottom: 1rem;
+    line-height: 150%;
+    color: #0487d3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
   }
 
   p {
@@ -414,5 +733,100 @@
     font-size: 18px;
     line-height: 150%;
     color: #011D67;
+  }
+
+  ul {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 16px;
+    line-height: 150%;
+    color: #011D67;
+    padding-bottom: 1rem;
+  }
+
+  li {
+    list-style: disc;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .img_container_ilac img {
+    width: 40vw;
+    height: fill-container;
+    grid-column: 1;
+    grid-row: 17;
+  }
+
+  .img_container_filterpure img {
+    width: 40vw;
+    height: fill-container;
+    grid-column: 2;
+    grid-row: 17;
+  }
+
+  figcaption {
+    font-family: Petrona-Italic;
+    font-style: 1;
+    font-weight: 375;
+    font-size: 14px;
+    line-height: 125%;
+    color: #011D67;
+    padding-top: .5rem;
+    margin-bottom: 1rem;
+    width: 40vw;
+  }
+
+  .maintenance-guides-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(4, 1fr) min-content;
+    max-width: 90vw;
+  }
+
+  .maintenance-guide1 {
+    grid-column: 1 / 5;
+    grid-row: 1 / 4;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-guide2 {
+    grid-column: 3 / 7;
+    grid-row: 2 / 5;
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .maintenance-caption {
+    grid-column: 1 / 7;
+    grid-row-start: 5;
+  }
+
+  .sketch-grid {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: repeat(6 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .sketch1 {
+    grid-column: 1 / 3;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .sketch2 {
+    grid-column: 2 / 4;
+    grid-row: 2 / 5;
+    max-width: 100%;
+  }
+
+  .solcom-images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+    width: 80%;
   }
 }

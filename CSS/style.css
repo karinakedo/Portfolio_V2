@@ -1002,11 +1002,11 @@ p {
     grid-row-end: auto;
     font-family: Petrona;
     font-style: normal;
-    text-align: center;
+    justify-content: center;
     font-size: 36px;
     line-height: 52px;
     color: #FF400F;
-    max-width: 16ch;
+
   }
 
   h1 {
@@ -1015,8 +1015,8 @@ p {
   }
 
   .blurb {
-    grid-column-start: 3;
-    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-column-end: 6;
     grid-row-start: 4;
     grid-row-end: auto;
     font-family: Petrona;
@@ -1026,7 +1026,8 @@ p {
     line-height: 48px;
     color: #FF400F;
     font-weight: 500;
-    max-width: 16ch;
+    
+    justify-content: center;
   }
 
   /* i {

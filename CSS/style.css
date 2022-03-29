@@ -631,7 +631,7 @@ p {
 } */
 
 
-@media (max-width: 480px) {
+@media (max-width: 394px) {
   .hero {
     display: flex;
     height: 100vh;
@@ -694,8 +694,8 @@ p {
     font-family: Petrona;
     font-style: normal;
     text-align: center;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 24px;
+    line-height: 36px;
     color: #FF400F;
   }
 
@@ -712,8 +712,8 @@ p {
     font-family: Petrona;
     font-style: normal;
     text-align: center;
-    font-size: 28px;
-    line-height: 42px;
+    font-size: 22px;
+    line-height: 32px;
     color: #FF400F;
     font-weight: 500;
   }
@@ -933,14 +933,14 @@ p {
 
   .headshot {
     border-radius: 4px;
-    grid-column: 3 / 7;
+    grid-column: 2 / 6;
     grid-row: 3;
     width: 12rem;
     height: auto;
   }
 }
 
-@media (min-width: 481px) {
+@media (min-width: 395px) {
   .hero {
     display: flex;
     height: 100vh;

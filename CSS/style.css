@@ -30,9 +30,9 @@
 }
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #002480;
-  border-bottom: 0.15rem solid #1347D2;
+  /* border-bottom: 0.15rem solid #1347D2; */
 }
 
 a:hover {
@@ -649,9 +649,9 @@ p {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #002480;
-    border-bottom: 0.15rem solid #1347D2;
+    /* border-bottom: 0.15rem solid #1347D2; */
   }
 
   a:hover {
@@ -958,9 +958,9 @@ p {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #002480;
-    border-bottom: 0.15rem solid #1347D2;
+    /* border-bottom: 0.15rem solid #1347D2; */
   }
 
   a:hover {
@@ -1268,9 +1268,9 @@ p {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #002480;
-    border-bottom: 0.15rem solid #1347D2;
+    /* border-bottom: 0.15rem solid #1347D2; */
   }
 
   a:hover {
@@ -1581,9 +1581,9 @@ p {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #002480;
-    border-bottom: 0.15rem solid #1347D2;
+    /* border-bottom: 0.15rem solid #1347D2; */
   }
 
   a:hover {
@@ -1895,9 +1895,9 @@ p {
   }
 
   a {
-    text-decoration: none;
+    text-decoration: underline;
     color: #002480;
-    border-bottom: 0.15rem solid #1347D2;
+    /* border-bottom: 0.15rem solid #1347D2; */
   }
 
   a:hover {

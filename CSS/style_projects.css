@@ -200,6 +200,11 @@
     max-width: 90vw;
     margin-bottom: 1rem;
   }
+
+  .kpap_images {
+    max-width: 90vw;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 395px) {
@@ -366,6 +371,11 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+  .kpap_images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 769px) {
@@ -519,6 +529,11 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+  .kpap_images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -668,6 +683,11 @@
   }
 
   .solcom-images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .kpap_images {
     max-width: 80vw;
     margin-bottom: 1rem;
   }
@@ -825,6 +845,12 @@
   }
 
   .solcom-images {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+    width: 80%;
+  }
+
+  .kpap_images {
     max-width: 80vw;
     margin-bottom: 1rem;
     width: 80%;

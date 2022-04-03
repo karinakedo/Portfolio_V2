@@ -87,6 +87,17 @@
     margin-bottom: 1rem;
   }
 
+  h4 {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #002480;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
   p {
     font-family: Petrona;
     font-style: normal;
@@ -273,6 +284,17 @@
     margin-bottom: 1rem;
   }
 
+  h4 {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #002480;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
   p {
     font-family: Petrona;
     font-style: normal;
@@ -426,6 +448,17 @@
     font-size: 22px;
     line-height: 150%;
     color: #0487d3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    color: #002480;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -588,6 +621,17 @@
     margin-bottom: 1rem;
   }
 
+  h4 {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #002480;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
   p {
     font-family: Petrona;
     font-style: normal;
@@ -741,6 +785,17 @@
     font-size: 22px;
     line-height: 150%;
     color: #0487d3;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 150%;
+    color: #002480;
     margin-top: 2rem;
     margin-bottom: 1rem;
   }

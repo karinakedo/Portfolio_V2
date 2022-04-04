@@ -212,6 +212,37 @@
     margin-bottom: 1rem;
   }
 
+  .grid_tree_test {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
+    grid-template-rows: repeat(4 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .kpap_sample_menu_structure_tree_test {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .kpap_sample_menu_structure_tree_test_caption {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test_caption {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
   .kpap_images {
     max-width: 90vw;
     margin-bottom: 1rem;
@@ -392,6 +423,37 @@
   .solcom-images {
     max-width: 80vw;
     margin-bottom: 1rem;
+  }
+
+  .grid_tree_test {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
+    grid-template-rows: repeat(4 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .kpap_sample_menu_structure_tree_test {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .kpap_sample_menu_structure_tree_test_caption {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test_caption {
+    grid-column: 3 / 4;
+    max-width: 100%;
   }
 
   .kpap_images {
@@ -599,25 +661,34 @@
     grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
     grid-template-rows: max-content max-content max-content max-content max-content;
     max-width: 90vw;
-    max-height: 100vh;
     margin-bottom: 1rem;
   }
 
-.before {
-  grid-column: 1 / 2;
-  grid-row: 1 / 4;
-  max-width: 100%;
-}
+  .before {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+  }
 
-.after {
-  grid-column: 3 / 4;
-  grid-row: 1 / 4;
-  max-width: 100%;
-}
+  .before_img {
+    max-width: 80vw;
+  }
 
-.after_caption {
-  grid-row: 4 / 5;
-}
+  .after {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+  }
+
+  .after_img {
+    max-width: 80vw;
+  }
+
+  .after_caption {
+    grid-row: 4 / 5;
+  }
+
+  .kpap_images_beforeafter {
+    max-width: 40vw;
+  }
 
   .kpap_images {
     max-width: 80vw;
@@ -785,6 +856,71 @@
   .solcom-images {
     max-width: 80vw;
     margin-bottom: 1rem;
+  }
+
+  .grid_tree_test {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
+    grid-template-rows: repeat(4 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .kpap_sample_menu_structure_tree_test {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .kpap_sample_menu_structure_tree_test_caption {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test_caption {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
+  .grid_before_after {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    max-width: 90vw;
+    margin-bottom: 1rem;
+  }
+
+  .before {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+  }
+
+  .before_img {
+    max-width: 80vw;
+  }
+
+  .after {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+  }
+
+  .after_img {
+    max-width: 80vw;
+  }
+
+  .after_caption {
+    grid-row: 4 / 5;
+  }
+
+  .kpap_images_beforeafter {
+    max-width: 40vw;
   }
 
   .kpap_images {
@@ -961,9 +1097,73 @@
     width: 80%;
   }
 
+  .grid_tree_test {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
+    grid-template-rows: repeat(4 1fr);
+    max-width: 90vw;
+    max-height: 100vh;
+    margin-bottom: 1rem;
+  }
+
+  .kpap_sample_menu_structure_tree_test {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+    max-width: 100%;
+  }
+
+  .kpap_sample_menu_structure_tree_test_caption {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
+  .KPAP_sample_task_from_tree_test_caption {
+    grid-column: 3 / 4;
+    max-width: 100%;
+  }
+
+  .grid_before_after {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
+    grid-template-rows: max-content max-content max-content max-content max-content;
+    max-width: 90vw;
+    margin-bottom: 1rem;
+  }
+
+  .before {
+    grid-column: 1 / 2;
+    grid-row: 1 / 4;
+  }
+
+  .before_img {
+    max-width: 80vw;
+  }
+
+  .after {
+    grid-column: 3 / 4;
+    grid-row: 1 / 4;
+  }
+
+  .after_img {
+    max-width: 80vw;
+  }
+
+  .after_caption {
+    grid-row: 4 / 5;
+  }
+
+  .kpap_images_beforeafter {
+    max-width: 40vw;
+  }
+
   .kpap_images {
     max-width: 80vw;
     margin-bottom: 1rem;
-    width: 80%;
   }
 }

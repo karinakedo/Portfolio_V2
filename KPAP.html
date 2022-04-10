@@ -24,162 +24,195 @@
 
 </head>
 
-<body class="body">
-    <h1>
-        Kilimanjaro Porters Assistance Project
-    </h1>
-    <h2>
-        promoting responsible travel and ethical tourism on mount kilimanjaro
-    </h2>
-    <p>This was a user research project completed in the Dominican Republic. I revisited this project years
-        later
-        through a UX lens to further iterate on the final design.
-    </p>
+<body class=background>
+    <header class="header">
+        <div class="hero"></div>
+    </header>
+    <wrapper class="body">
+        <h1>
+            Kilimanjaro Porters Assistance Project
+        </h1>
+        <h2>
+            promoting responsible travel and ethical tourism on mount kilimanjaro
+        </h2>
+        <h3>
+            Summary
+        </h3>
+        <p>The Kilimanjaro Porters Assistance Project (KPAP) is a Tanzanian NGO focused on securing ethical treatment
+            and
+            fair pay for the porters on Mount Kilimanjaro. I worked with KPAP staff and volunteers to improve the
+            usability
+            and visual design of their website.</p>
 
-    <h3>
-        Summary
-    </h3>
-    <p>The Kilimanjaro Porters Assistance Project (KPAP) is a Tanzanian NGO focused on securing ethical treatment and
-        fair pay for the porters on Mount Kilimanjaro. I worked with KPAP staff and volunteers to improve the usability
-        and visual design of their website.</p>
+        <h3>The Problem</h3>
+        <p>KPAP offers supports Kilimanjaro porters through free gear rentals and educational and training
+            opportunities.
+            They also promote ethical mountain climbs through their Partner for Responsible Travel program. As a small
+            non-profit based at the foot of Kilimanjaro, KPAP needed a website that effectively communicated their work
+            and
+            accomplished two key goals:</p>
+        <ul role="list">
+            <li>Persuading visiting climbers to book with a KPAP-approved Partner for Responsible Travel</li>
+            <li>Convincing tourism companies to commit to ethical practices and become a Partner for Responsible Travel
+            </li>
+        </ul>
+        <p>
+            The onset of the COVID-19 pandemic deeply impacted the global tourism industry, which made communicating
+            KPAP's
+            work effectively online more crucial than ever. As a first step, I planned out a project scope that would
+            have
+            me looking at the site content
+            and page structure across the site as well as making improvements to the UI.
+        </p>
+        <h3>
+            Establishing Priorities
+        </h3>
+        <p>I met with the KPAP team in Tanzania and Scotland via Zoom to identify the technical constraints that would
+            define my work. As KPAP is a small organization that relies heavily on volunteering, all designs needed to
+            be
+            easy to manage and update, and had to minimize complexity and render quickly on slow internet connections.
+        </p>
+        <p>After asking tons of questions, I settled on a few directives to serve as my personal design principles:</p>
+        <ul role="list">
+            <li>Lean and Fast: don't introduce complication or complexity unless absolutely necessary (a tenet I try to
+                apply in every project!)</li>
+            <li>More than the Mountain: show the human side of Kilimanjaro (the porters!) as much as possible</li>
+            <li>Stellar Documentation: record the context and reasoning behind design decisions to ensure clarity far
+                into
+                the future</li>
+        </ul>
+        <h3>
+            Determining Navigation Structure
+        </h3>
+        <p>
+            When I analyzed behavior patterns on the existing site, I learned that most users were bouncing between
+            unrelated pages before settling on the "Porter Treatment Guidelines and Tipping Recommendations" page or the
+            "Becoming a Partner" page. It was clear that the information architecture on the existing KPAP site needed
+            to be
+            reconsidered in order to allow easier navigation to this key content.
+        </p>
+        <p>Before anything else, I needed to rework the information architecture to match the needs of users visiting
+            the
+            site. </p>
 
-    <h3>The Problem</h3>
-    <p>KPAP offers supports Kilimanjaro porters through free gear rentals and educational and training opportunities.
-        They also promote ethical mountain climbs through their Partner for Responsible Travel program. As a small
-        non-profit based at the foot of Kilimanjaro, KPAP needed a website that effectively communicated their work and
-        accomplished two key goals:</p>
-    <ul role="list">
-        <li>Persuading visiting climbers to book with a KPAP-approved Partner for Responsible Travel</li>
-        <li>Convincing tourism companies to commit to ethical practices and become a Partner for Responsible Travel</li>
-    </ul>
-    <p>
-        The onset of the COVID-19 pandemic deeply impacted the global tourism industry, which made communicating KPAP's
-        work effectively online more crucial than ever. As a first step, I planned out a project scope that would have
-        me looking at the site content
-        and page structure across the site as well as making improvements to the UI.
-    </p>
-    <h3>
-        Establishing Priorities
-    </h3>
-    <p>I met with the KPAP team in Tanzania and Scotland via Zoom to identify the technical constraints that would
-        define my work. As KPAP is a small organization that relies heavily on volunteering, all designs needed to be
-        easy to manage and update, and had to minimize complexity and render quickly on slow internet connections.</p>
-    <p>After asking tons of questions, I settled on a few directives to serve as my personal design principles:</p>
-    <ul role="list">
-        <li>Lean and Fast: don't introduce complication or complexity unless absolutely necessary (a tenet I try to
-            apply in every project!)</li>
-        <li>More than the Mountain: show the human side of Kilimanjaro (the porters!) as much as possible</li>
-        <li>Stellar Documentation: record the context and reasoning behind design decisions to ensure clarity far into
-            the future</li>
-    </ul>
-    <h3>
-        Determining Navigation Structure
-    </h3>
-    <p>
-        When I analyzed behavior patterns on the existing site, I learned that most users were bouncing between
-        unrelated pages before settling on the "Porter Treatment Guidelines and Tipping Recommendations" page or the
-        "Becoming a Partner" page. It was clear that the information architecture on the existing KPAP site needed to be
-        reconsidered in order to allow easier navigation to this key content.
-    </p>
-    <p>Before anything else, I needed to rework the information architecture to match the needs of users visiting the
-        site. </p>
-
-    <figure><img class="kpap_images" src="Images/KPAP_old_get_involved.png"
-            alt="Screenshot of existing KPAP Get Involved page showing page structure">
-        <figcaption>Screenshot of existing KPAP Get Involved page showing page structure</figcaption>
-    </figure>
-
-    <h3>Tree Test Setup and Results</h3>
-    <p>The site content needed to be structured in such a way as to create channels for the various users visiting the
-        site: aspiring Kilimanjaro climbers, tourism companies, potential donors, and those looking to learn about KPAP.
-        I examined the content of each page and created a new menu structure to test with users in a tree test.
-    </p>
-    <p>Because access to users and time was limited, I opted for a tree test instead of a card sort and arranged the
-        content in a way that created "channels" for each group of users from the top-level nav, such as "For Climbers"
-        and "For Tourism Companies".</p>
-
-    <figure class="grid_tree_test">
-        <img class="kpap_sample_menu_structure_tree_test" src="Images/KPAP_sample_menu_structure_tree_test.png"
-            alt="Sample menu structure from tree test. The About Us section includes Our Impact and In the Media pages. The For Climbers section includes Climb with a Responsible Travel Company, Porter Treatment and Tipping Guidelines, and Share Information from your Climb. The For Tourism Companies section includes Why Partner with Us and Register as a Partner for Responsible Travel. The Donate section includes Supporting Kilimanjaro Porters during COVID-19 and Thanks to Our Donors. The Contact Us section includes one page, titled Email List Sign Up.">
-        <figcaption class="kpap_sample_menu_structure_tree_test_caption">Sample menu structure from tree test
-        </figcaption>
-        <img class="KPAP_sample_task_from_tree_test" src="Images/KPAP_sample_task_from_tree_test.png"
-            alt="Sample task from tree test. This task reads, You are interested in climbing Mount Kilimanjaro, but want to use a reputable tour company. Where would you look to find one?">
-        <figcaption class="KPAP_sample_task_from_tree_test_caption">Sample task from tree test</figcaption>
-    </figure>
-
-    <p>
-        20 users completed the tree test, and results confirmed that the proposed menu structure would enable aspiring
-        climbers and tourism companies to find information relevant to them. The results also revealed that potential
-        donors would look in three spots to learn about KPAP's cause: About Us, Donate, and Contact Us.
-    </p>
-    <figure>
-        <img class="kpap_images" src="Images/KPAP_tree_test_results.png"
-            alt="Tree test results for a task regarding donating to KPAP. Most users initially visited the About Us, Donate, and Contact Us sections. Those who navigated to Contact Us went back.">
-        <figcaption>Tree test results for a task regarding donating to KPAP. Most users initially visited the About Us,
-            Donate, and Contact Us sections. Those who navigated to Contact Us went back.</figcaption>
-    </figure>
-
-    <p>The site needed a message "selling" the impact of a donation in these three spots. While creating new copy
-        was
-        outside the project scope, I took note of this finding to incorporate it in future.</p>
-    <h3>Putting the Content to Work</h3>
-    <p>Now that the menu structure was in place, I needed to re-organize the existing content to match each page's
-        purpose. I conducted an audit of the existing copy to determine the message and function of each section and
-        assigned it to a group.</p>
-    <p>I re-worked the content with a focus on brevity, clarity, and intentional language choice.</p>
-    <div class="grid_before_after">
-        <figure class="before">
-            <h4>Before:</h4>
-            <p>Existing copy explaining KPAP's impact was originally quite text-heavy, with bolded text serving as the
-                only
-                means of hierarchy.</p>
-            <img class="kpap_images_beforeafter" src="Images/KPAP_old_impact_page.png"
-                alt="Screenshot of old KPAP Impact page. The page is text-heavy and difficult to read.">
-            <figcaption>Screenshot of old KPAP Impact page</figcaption>
+        <figure><img class="kpap_images" src="Images/KPAP_old_get_involved.png"
+                alt="Screenshot of existing KPAP Get Involved page showing page structure">
+            <figcaption>Screenshot of existing KPAP Get Involved page showing page structure</figcaption>
         </figure>
-        <figure class="after">
-            <h4>After:</h4>
-            <p>I used meaningful iconography and hierarchy to make the message scannable. I also used language that
-                would
-                suit a
-                global audience.</p>
-            <img class="kpap_images_beforeafter" src="Images/KPAP_new_impact_page.png"
-                alt="Screenshot of new KPAP Our Impact page with text separated into sections and icons added.">
-            <figcaption class="after_caption">Screenshot of new KPAP Our Impact page with text separated into sections and icons added
+
+        <h3>Tree Test Setup and Results</h3>
+        <p>The site content needed to be structured in such a way as to create channels for the various users visiting
+            the
+            site: aspiring Kilimanjaro climbers, tourism companies, potential donors, and those looking to learn about
+            KPAP.
+            I examined the content of each page and created a new menu structure to test with users in a tree test.
+        </p>
+        <p>Because access to users and time was limited, I opted for a tree test instead of a card sort and arranged the
+            content in a way that created "channels" for each group of users from the top-level nav, such as "For
+            Climbers"
+            and "For Tourism Companies".</p>
+
+        <figure class="grid_tree_test">
+            <img class="kpap_sample_menu_structure_tree_test" src="Images/KPAP_sample_menu_structure_tree_test.png"
+                alt="Sample menu structure from tree test. The About Us section includes Our Impact and In the Media pages. The For Climbers section includes Climb with a Responsible Travel Company, Porter Treatment and Tipping Guidelines, and Share Information from your Climb. The For Tourism Companies section includes Why Partner with Us and Register as a Partner for Responsible Travel. The Donate section includes Supporting Kilimanjaro Porters during COVID-19 and Thanks to Our Donors. The Contact Us section includes one page, titled Email List Sign Up.">
+            <figcaption class="kpap_sample_menu_structure_tree_test_caption">Sample menu structure from tree test
             </figcaption>
+            <img class="KPAP_sample_task_from_tree_test" src="Images/KPAP_sample_task_from_tree_test.png"
+                alt="Sample task from tree test. This task reads, You are interested in climbing Mount Kilimanjaro, but want to use a reputable tour company. Where would you look to find one?">
+            <figcaption class="KPAP_sample_task_from_tree_test_caption">Sample task from tree test</figcaption>
         </figure>
-    </div>
-    <h3>Establishing Visual Cohesion</h3>
-    <p>I made changes that instantly added cohesion to the design and made stronger use of the professional
-        photographs
-        KPAP had on hand.</p>
-    <p>I eyedropped from a photo that I wanted to take
-        center
-        stage, and built the style guide around that color.</p>
-    <img class="kpap_images" src="Images/KPAP_style_guide.png"
-        alt="Image of style guide assets, including typography, color, buttons and image treatment">
 
-    <h3>The Result</h3>
-    <p>At the conclusion of this project, I delivered a re-designed website with clear information hierarchy,
-        content
-        structure, and improved visuals.</p>
-    </p>
-    <figure>
-        <img class="kpap_images" src="Images/KPAP_final_mockups.png"
-            alt="Examples of the new KPAP site across desktop, tablet and mobile. The screens are superimposed on top of a blurred background image of Mount Kilimanjaro">
-        <figcaption>Examples of the new KPAP site across desktop, tablet and mobile</figcaption>
-    </figure>
-    <p>
-        <a href="https://www.kiliporters.org">See it live!</a>
-    </p>
-    <p>
-        I really enjoyed working through the unique constraints and challenges this project presented. To learn more
-        about my process, feel free to
-        contact
-        me.
-    </p>
+        <p>
+            20 users completed the tree test, and results confirmed that the proposed menu structure would enable
+            aspiring
+            climbers and tourism companies to find information relevant to them. The results also revealed that
+            potential
+            donors would look in three spots to learn about KPAP's cause: About Us, Donate, and Contact Us.
+        </p>
+        <figure>
+            <img class="kpap_images" src="Images/KPAP_tree_test_results.png"
+                alt="Tree test results for a task regarding donating to KPAP. Most users initially visited the About Us, Donate, and Contact Us sections. Those who navigated to Contact Us went back.">
+            <figcaption>Tree test results for a task regarding donating to KPAP. Most users initially visited the About
+                Us,
+                Donate, and Contact Us sections. Those who navigated to Contact Us went back.</figcaption>
+        </figure>
 
+        <p>The site needed a message "selling" the impact of a donation in these three spots. While creating new copy
+            was
+            outside the project scope, I took note of this finding to incorporate it in future.</p>
+        <h3>Putting the Content to Work</h3>
+        <p>Now that the menu structure was in place, I needed to re-organize the existing content to match each page's
+            purpose. I conducted an audit of the existing copy to determine the message and function of each section and
+            assigned it to a group.</p>
+        <p>I re-worked the content with a focus on brevity, clarity, and intentional language choice.</p>
+        <div class="grid_before_after">
+            <figure class="before">
+                <h4>Before:</h4>
+                <p>Existing copy explaining KPAP's impact was originally quite text-heavy, with bolded text serving as
+                    the
+                    only
+                    means of hierarchy.</p>
+                <img class="kpap_images_beforeafter" src="Images/KPAP_old_impact_page.png"
+                    alt="Screenshot of old KPAP Impact page. The page is text-heavy and difficult to read.">
+                <figcaption>Screenshot of old KPAP Impact page</figcaption>
+            </figure>
+            <figure class="after">
+                <h4>After:</h4>
+                <p>I used meaningful iconography and hierarchy to make the message scannable. I also used language that
+                    would
+                    suit a
+                    global audience.</p>
+                <img class="kpap_images_beforeafter" src="Images/KPAP_new_impact_page.png"
+                    alt="Screenshot of new KPAP Our Impact page with text separated into sections and icons added.">
+                <figcaption class="after_caption">Screenshot of new KPAP Our Impact page with text separated into
+                    sections
+                    and icons added
+                </figcaption>
+            </figure>
+        </div>
+        <h3>Establishing Visual Cohesion</h3>
+        <p>I made changes that instantly added cohesion to the design and made stronger use of the professional
+            photographs
+            KPAP had on hand.</p>
+        <p>I eyedropped from a photo that I wanted to take
+            center
+            stage, and built the style guide around that color.</p>
+        <img class="kpap_images" src="Images/KPAP_style_guide.png"
+            alt="Image of style guide assets, including typography, color, buttons and image treatment">
+
+        <h3>The Result</h3>
+        <p>At the conclusion of this project, I delivered a re-designed website with clear information hierarchy,
+            content
+            structure, and improved visuals.</p>
+        </p>
+        <figure>
+            <img class="kpap_images" src="Images/KPAP_final_mockups.png"
+                alt="Examples of the new KPAP site across desktop, tablet and mobile. The screens are superimposed on top of a blurred background image of Mount Kilimanjaro">
+            <figcaption>Examples of the new KPAP site across desktop, tablet and mobile</figcaption>
+        </figure>
+        <p>
+            <a href="https://www.kiliporters.org">See it live!</a>
+        </p>
+        <p>
+            I really enjoyed working through the unique constraints and challenges this project presented. To learn more
+            about my process, feel free to
+            contact
+            me.
+        </p>
+        <!-- <div class="grid-image-gallery"></div> -->
+        <img class="kpap_images" src="Images/kili1.jpeg"
+            alt="Photo of a person standing on a mountain ridge overlooking sunset. Photo by the author.">
+        <img class="kpap_images" src="Images/kili2.jpeg"
+            alt="Photo of porters walking away from the camera toward the summit of Mount Kilimanjaro. Photo by the author.">
+        <img class="kpap_images" src="Images/kili3.jpeg"
+            alt="Photo of the summit of Mount Kilimanjaro at sunrise. Photo by the author.">
+        <img class="kpap_images" src="Images/kili4.jpeg"
+            alt="Photo of Kilimanjaro, overlooking clouds at sunrise. Photo by the author.">
+        <img class="kpap_images" src="Images/kili5.jpeg"
+            alt="Photo of four people in bright jackets standing in front of a mountain ridge. They are facing away from the camera and clouds collect on the ridge. Photo by the author.">
+        <img class="kpap_images" src="Images/kili6.jpeg"
+            alt="Photo of tents set up at the base of a mountain ridge. Photo by the author.">
+    </wrapper>
 </body>
 
 </html>

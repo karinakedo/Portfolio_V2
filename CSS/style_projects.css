@@ -14,19 +14,19 @@
   box-sizing: border-box;
 }
 
-.background {
-
-}
-
 .body {
   background-color: #F9F5EE;
   display: grid;
-grid-template-columns: 5vw 1fr 5vw;
+  grid-template-columns: 5vw 1fr 5vw;
 }
 
 .hero {
   width: 100%;
   grid-column: 1 / 4;
+}
+
+.kpapcontent {
+  grid-column: 2 / 3;
 }
 
 /* .grid-image-gallery {
@@ -262,35 +262,13 @@ grid-template-columns: 5vw 1fr 5vw;
 
   .grid_tree_test {
     display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: 1fr max-content 1rem max-content max-content max-content;
+    grid-template-columns: minmax(10vw, 90vw);
+    grid-template-rows: max-content max-content max-content max-content max-content;
     max-width: 90vw;
     margin-bottom: 1rem;
   }
 
-  .kpap_sample_menu_structure_tree_test {
-    grid-column: 1 / 4;
-    grid-row: 1 / 2;
-    max-width: 100%;
-  }
-
-  .kpap_sample_menu_structure_tree_test_caption {
-    grid-column: 1 / 4;
-    grid-row: 2 / 3;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test {
-    grid-column: 1 / 4;
-    grid-row: 4 / 5;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test_caption {
-    grid-column: 1 / 4;
-    grid-row: 5 / 6;
-    max-width: 100%;
-  }
+/*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;
@@ -499,33 +477,20 @@ grid-template-columns: 5vw 1fr 5vw;
   .grid_tree_test {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: max-content max-content max-content max-content max-content;
     max-width: 90vw;
-    max-height: 100vh;
     margin-bottom: 1rem;
   }
 
-  .kpap_sample_menu_structure_tree_test {
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-    max-width: 100%;
-  }
+/*Subgroups of the tree test grid use before/after classes below*/
 
-  .kpap_sample_menu_structure_tree_test_caption {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
-    max-width: 100%;
-  }
+.kpap_sample_menu_structure_tree_test {
+  max-width: 45vw;
+}
 
-  .KPAP_sample_task_from_tree_test {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test_caption {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
+.KPAP_sample_task_from_tree_test {
+  max-width: 45vw;
+}
 
   .grid_before_after {
     display: grid;
@@ -734,33 +699,12 @@ grid-template-columns: 5vw 1fr 5vw;
   .grid_tree_test {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: max-content max-content max-content max-content max-content;
     max-width: 90vw;
-    max-height: 100vh;
     margin-bottom: 1rem;
   }
 
-  .kpap_sample_menu_structure_tree_test {
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-    max-width: 100%;
-  }
-
-  .kpap_sample_menu_structure_tree_test_caption {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test_caption {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
+/*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;
@@ -968,33 +912,12 @@ grid-template-columns: 5vw 1fr 5vw;
   .grid_tree_test {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: max-content max-content max-content max-content max-content;
     max-width: 90vw;
-    max-height: 100vh;
     margin-bottom: 1rem;
   }
 
-  .kpap_sample_menu_structure_tree_test {
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-    max-width: 100%;
-  }
-
-  .kpap_sample_menu_structure_tree_test_caption {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test_caption {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
+/*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;
@@ -1207,33 +1130,12 @@ grid-template-columns: 5vw 1fr 5vw;
   .grid_tree_test {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: repeat(4 1fr);
+    grid-template-rows: max-content max-content max-content max-content max-content;
     max-width: 90vw;
-    max-height: 100vh;
     margin-bottom: 1rem;
   }
 
-  .kpap_sample_menu_structure_tree_test {
-    grid-column: 1 / 2;
-    grid-row: 1 / 4;
-    max-width: 100%;
-  }
-
-  .kpap_sample_menu_structure_tree_test_caption {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
-
-  .KPAP_sample_task_from_tree_test_caption {
-    grid-column: 3 / 4;
-    max-width: 100%;
-  }
+/*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;

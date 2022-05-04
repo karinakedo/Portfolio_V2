@@ -25,8 +25,7 @@
 .hero {
   background-image: url('../Images/Porters_on_mountain.jpeg');
   background-position: 5% 50%;
-  width: 100vw;
-  height: 80vh;
+  width: 100%;
   top: 0;
   left: 0;
 }

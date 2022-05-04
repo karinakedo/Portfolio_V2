@@ -18,22 +18,18 @@
   background-color: #F9F5EE;
 }
 
-/* .header {
-  display: block;
-} */
-
-.hero {
-  background-image: url('../Images/Porters_on_mountain.jpeg');
-  background-position: 5% 50%;
-  width: 100%;
-  top: 0;
-  left: 0;
-}
-
 .body {
   display: grid;
   margin-left: 5vw;
   margin-right: 5vw;
+}
+
+.hero {
+  background-image: url('../Images/Porters_on_mountain.jpeg');
+
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 /* .grid-image-gallery {

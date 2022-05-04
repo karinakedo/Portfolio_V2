@@ -20,12 +20,12 @@
 
 .body {
   display: grid;
-  margin-left: 5vw;
-  margin-right: 5vw;
+grid-template-columns: 5vw 1fr 5vw;
 }
 
 .hero {
   width: 100%;
+  grid-column: 1 / 4;
 }
 
 /* .grid-image-gallery {

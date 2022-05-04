@@ -15,10 +15,11 @@
 }
 
 .background {
-  background-color: #F9F5EE;
+
 }
 
 .body {
+  background-color: #F9F5EE;
   display: grid;
 grid-template-columns: 5vw 1fr 5vw;
 }

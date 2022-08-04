@@ -22,6 +22,16 @@
   --main-hover-color:#1347D2;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --main-bg-color:#000e30;
+    --main-text-color:#E2817B; 
+    --main-paragraph-color: #ECEBE4;
+    --main-header-color:#ECEBE4;
+    --main-hover-color:#E74820;
+  }
+}
+
 .body {
   background-color:var(--main-bg-color);
   display: grid;

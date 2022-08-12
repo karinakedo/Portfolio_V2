@@ -19,6 +19,7 @@
   --main-text-color:#002480;
   --main-paragraph-color: #011d67;
   --main-header-color:#FF400F;
+  --main-section-header-color: #0487d3;
   --main-hover-color:#1347D2;
 }
 
@@ -28,6 +29,7 @@
     --main-text-color:#E2817B; 
     --main-paragraph-color: #ECEBE4;
     --main-header-color:#ECEBE4;
+    --main-section-header-color: #0487d3;
     --main-hover-color:#E74820;
   }
 }
@@ -148,7 +150,7 @@
     font-weight: 700;
     font-size: 18px;
     line-height: 150%;
-    color: #0487d3;
+    color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -327,6 +329,14 @@
     max-width: 90vw;
     margin-bottom: 1rem;
   }
+
+  .alert {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #0487d31e;
+  }
 }
 
 @media (min-width: 395px) {
@@ -377,7 +387,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 150%;
-    color: #0487d3;
+    color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -548,6 +558,14 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+  .alert {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #0487d31e;
+  }
 }
 
 @media (min-width: 769px) {
@@ -598,7 +616,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 150%;
-    color: #0487d3;
+    color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -762,6 +780,14 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+  .alert {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #0487d31e;
+  }
 }
 
 @media (min-width: 1025px) {
@@ -812,7 +838,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 150%;
-    color: #0487d3;
+    color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -1024,7 +1050,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 150%;
-    color: #0487d3;
+    color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }
@@ -1193,4 +1219,13 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+  .alert {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #0487d31e;
+  }
+
 }

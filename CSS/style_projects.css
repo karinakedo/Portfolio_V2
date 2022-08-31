@@ -364,7 +364,7 @@
     margin-bottom: 1rem;
   }
 
-/*HotelClientCaseStudy*/
+/* HotelClientCaseStudy
 
   .grid_current_state {
     display: grid;
@@ -372,40 +372,40 @@
     grid-template-rows: max-content max-content max-content max-content max-content max-content;
     max-width: 90vw;
     margin-bottom: 1rem;
-  }
+  } */
 
   .page_layout {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
     max-width: 80vw;
   }
 
-  .page_layout_caption {
+  /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-  }
+  } */
 
   .filtering {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    /* grid-column: 1 / 2;
+    grid-row: 3 / 4; */
     max-width: 80vw;
   }
 
-  .filtering_caption {
+  /* .filtering_caption {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-  }
+  } */
 
 .hotel_cards {
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
-  max-width: 80vw;
+  /* grid-column: 1 / 2;
+  grid-row: 5 / 6; */
+  max-height: 80vh;
 }
 
-.hotel_cards_caption {
+/* .hotel_cards_caption {
   grid-column: 1 / 2;
   grid-row: 6 / 7;
-}
+} */
 }
 
 @media (min-width: 395px) {
@@ -653,7 +653,7 @@
     background-color: #0487d31e;
   }
 
-  /*HotelClientCaseStudy*/
+  /* HotelClientCaseStudy
 
   .grid_current_state {
     display: grid;
@@ -661,40 +661,40 @@
     grid-template-rows: max-content max-content max-content max-content max-content max-content;
     max-width: 90vw;
     margin-bottom: 1rem;
-  }
+  } */
 
   .page_layout {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
     max-width: 80vw;
   }
 
-  .page_layout_caption {
+  /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-  }
+  } */
 
   .filtering {
-    grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    /* grid-column: 1 / 2;
+    grid-row: 3 / 4; */
     max-width: 80vw;
   }
 
-  .filtering_caption {
+  /* .filtering_caption {
     grid-column: 1 / 2;
     grid-row: 4 / 5;
-  }
+  } */
 
 .hotel_cards {
-  grid-column: 1 / 2;
-  grid-row: 5 / 6;
-  max-width: 80vw;
+  /* grid-column: 1 / 2;
+  grid-row: 5 / 6; */
+  max-height: 80vh;
 }
 
-.hotel_cards_caption {
+/* .hotel_cards_caption {
   grid-column: 1 / 2;
   grid-row: 6 / 7;
-}
+} */
 }
 
 @media (min-width: 769px) {
@@ -936,7 +936,7 @@
     background-color: #0487d31e;
   }
 
-  /*HotelClientCaseStudy*/
+  /* HotelClientCaseStudy
 
   .grid_current_state {
     display: grid;
@@ -945,39 +945,40 @@
     max-width: 90vw;
     margin-bottom: 1rem;
     gap: 1rem;
-  }
+  } */
 
   .page_layout {
-    grid-column: 1 / 2;
-    grid-row: 1 / 2;
-    max-width: 45vw;
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    max-width: 80vw;
   }
 
-  .page_layout_caption {
+  /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
-  }
+  } */
 
   .filtering {
-    grid-column: 3 / 4;
-    grid-row: 1 / 2;
-    max-width: 45vw;
+    /* grid-column: 3 / 4;
+    grid-row: 1 / 2; */
+    max-width: 80vw;
   }
 
-  .filtering_caption {
+  /* .filtering_caption {
     grid-column-start: 3;
     grid-row: 2 / 3;
-  }
+  } */
 
   .hotel_cards {
-    grid-column: 1 / 2;
-    grid-row: 5 / 6;
+    /* grid-column: 1 / 2;
+    grid-row: 5 / 6; */
+    max-height: 80vh;
   }
 
-  .hotel_cards_caption {
+  /* .hotel_cards_caption {
     grid-column: 1 / 2;
     grid-row: 5 / 6;
-  }
+  } */
 }
 
 @media (min-width: 1025px) {
@@ -1208,6 +1209,50 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+   /* HotelClientCaseStudy
+
+  .grid_current_state {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: max-content max-content 1rem max-content max-content max-content;
+    max-width: 90vw;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  } */
+
+  .page_layout {
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    max-width: 80vw;
+  }
+
+  /* .page_layout_caption {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  } */
+
+  .filtering {
+    /* grid-column: 3 / 4;
+    grid-row: 1 / 2; */
+    max-width: 80vw;
+  }
+
+  /* .filtering_caption {
+    grid-column-start: 3;
+    grid-row: 2 / 3;
+  } */
+
+  .hotel_cards {
+    /* grid-column: 1 / 2;
+    grid-row: 5 / 6; */
+    max-height: 80vh;
+  }
+
+  /* .hotel_cards_caption {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  } */
 }
 
 @media (min-width: 1200px) {
@@ -1444,6 +1489,50 @@
     max-width: 80vw;
     margin-bottom: 1rem;
   }
+
+ /* HotelClientCaseStudy
+
+  .grid_current_state {
+    display: grid;
+    grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw);
+    grid-template-rows: max-content max-content 1rem max-content max-content max-content;
+    max-width: 90vw;
+    margin-bottom: 1rem;
+    gap: 1rem;
+  } */
+
+  .page_layout {
+    /* grid-column: 1 / 2;
+    grid-row: 1 / 2; */
+    max-width: 80vw;
+  }
+
+  /* .page_layout_caption {
+    grid-column: 1 / 2;
+    grid-row: 2 / 3;
+  } */
+
+  .filtering {
+    /* grid-column: 3 / 4;
+    grid-row: 1 / 2; */
+    max-width: 80vw;
+  }
+
+  /* .filtering_caption {
+    grid-column-start: 3;
+    grid-row: 2 / 3;
+  } */
+
+  .hotel_cards {
+    /* grid-column: 1 / 2;
+    grid-row: 5 / 6; */
+    max-height: 80vh;
+  }
+
+  /* .hotel_cards_caption {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+  } */
 
   .toggle {
     display: inline-block;

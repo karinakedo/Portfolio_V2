@@ -15,27 +15,27 @@
 }
 
 :root {
-  --main-bg-color:#F9F5EE;
-  --main-text-color:#002480;
+  --main-bg-color: #F9F5EE;
+  --main-text-color: #002480;
   --main-paragraph-color: #011d67;
-  --main-header-color:#FF400F;
+  --main-header-color: #FF400F;
   --main-section-header-color: #0487d3;
-  --main-hover-color:#1347D2;
+  --main-hover-color: #1347D2;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --main-bg-color:#000e30;
-    --main-text-color:#E2817B; 
+    --main-bg-color: #000e30;
+    --main-text-color: #E2817B;
     --main-paragraph-color: #ECEBE4;
-    --main-header-color:#ECEBE4;
+    --main-header-color: #ECEBE4;
     --main-section-header-color: #0487d3;
-    --main-hover-color:#E74820;
+    --main-hover-color: #E74820;
   }
 }
 
 .body {
-  background-color:var(--main-bg-color);
+  background-color: var(--main-bg-color);
   display: grid;
   grid-template-columns: 5vw 1fr 5vw;
 }
@@ -113,7 +113,7 @@
 
   a {
     text-decoration: none;
-    color:var(--main-text-color);
+    color: var(--main-text-color);
     border-bottom: 0.15rem solid var(--main-hover-color);
   }
 
@@ -184,6 +184,17 @@
     line-height: 150%;
     color: var(--main-paragraph-color);
     padding-bottom: 1rem;
+  }
+
+  ol {
+    max-width: 65ch;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-paragraph-color);
+    padding-bottom: 1.2rem;
   }
 
   li {
@@ -305,7 +316,7 @@
     margin-bottom: 1rem;
   }
 
-/*Subgroups of the tree test grid use before/after classes below*/
+  /*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;
@@ -364,7 +375,7 @@
     margin-bottom: 1rem;
   }
 
-/* HotelClientCaseStudy
+  /* HotelClientCaseStudy
 
   .grid_current_state {
     display: grid;
@@ -396,16 +407,54 @@
     grid-row: 4 / 5;
   } */
 
-.hotel_cards {
-  /* grid-column: 1 / 2;
+  .hotel_cards {
+    /* grid-column: 1 / 2;
   grid-row: 5 / 6; */
-  max-height: 80vh;
-}
+    max-height: 80vh;
+  }
 
-/* .hotel_cards_caption {
+  /* .hotel_cards_caption {
   grid-column: 1 / 2;
   grid-row: 6 / 7;
 } */
+
+  /*Classes for Burn&Earn*/
+  .persona {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .ol {
+    list-style: decimal-leading-zero;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .wireframe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-rows: repeat(3 1fr);
+    margin-bottom: 1rem;
+  }
+
+.pickup {
+  grid-column: 1 / 2;
+}
+
+.squad {
+  grid-column: 3 / 4;
+}
+
+.levelup {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+  .wireframe {
+    max-height: 80vw;
+    margin-bottom: 1rem;
+  }
+
 }
 
 @media (min-width: 395px) {
@@ -490,6 +539,17 @@
     line-height: 150%;
     color: var(--main-paragraph-color);
     padding-bottom: 1rem;
+  }
+
+  ol {
+    max-width: 65ch;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-paragraph-color);
+    padding-bottom: 1.2rem;
   }
 
   li {
@@ -596,15 +656,15 @@
     margin-bottom: 1rem;
   }
 
-/*Subgroups of the tree test grid use before/after classes below*/
+  /*Subgroups of the tree test grid use before/after classes below*/
 
-.kpap_sample_menu_structure_tree_test {
-  max-width: 45vw;
-}
+  .kpap_sample_menu_structure_tree_test {
+    max-width: 45vw;
+  }
 
-.KPAP_sample_task_from_tree_test {
-  max-width: 45vw;
-}
+  .KPAP_sample_task_from_tree_test {
+    max-width: 45vw;
+  }
 
   .grid_before_after {
     display: grid;
@@ -685,16 +745,48 @@
     grid-row: 4 / 5;
   } */
 
-.hotel_cards {
-  /* grid-column: 1 / 2;
+  .hotel_cards {
+    /* grid-column: 1 / 2;
   grid-row: 5 / 6; */
-  max-height: 80vh;
-}
+    max-height: 80vh;
+  }
 
-/* .hotel_cards_caption {
+  /* .hotel_cards_caption {
   grid-column: 1 / 2;
   grid-row: 6 / 7;
 } */
+
+  /*Classes for Burn&Earn*/
+  .persona {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .wireframe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-rows: repeat(3 1fr);
+    margin-bottom: 1rem;
+  }
+
+.pickup {
+  grid-column: 1 / 2;
+}
+
+.squad {
+  grid-column: 3 / 4;
+}
+
+.levelup {
+  grid-column: 1 / 2;
+  grid-row: 2;
+}
+
+  .wireframe {
+    max-height: 80vw;
+    margin-bottom: 1rem;
+  }
+
 }
 
 @media (min-width: 769px) {
@@ -780,6 +872,17 @@
     line-height: 150%;
     color: var(--main-paragraph-color);
     padding-bottom: 1rem;
+  }
+
+  ol {
+    max-width: 65ch;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-paragraph-color);
+    padding-bottom: 1.2rem;
   }
 
   li {
@@ -979,6 +1082,43 @@
     grid-column: 1 / 2;
     grid-row: 5 / 6;
   } */
+
+  /*Classes for Burn&Earn*/
+  .persona {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .ol {
+    list-style: decimal-leading-zero;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .wireframe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-rows: repeat(3 1fr);
+    margin-bottom: 1rem;
+  }
+
+.pickup {
+  grid-column: 1 / 2;
+}
+
+.squad {
+  grid-column: 3 / 4;
+}
+
+.levelup {
+  grid-column: 5 / 6;
+}
+
+  .wireframe {
+    max-height: 50vw;
+    margin-bottom: 1rem;
+  }
+
 }
 
 @media (min-width: 1025px) {
@@ -1055,6 +1195,17 @@
   }
 
   ul {
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-paragraph-color);
+    padding-bottom: 1.2rem;
+  }
+
+  ol {
+    max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -1169,7 +1320,7 @@
     margin-bottom: 1rem;
   }
 
-/*Subgroups of the tree test grid use before/after classes below*/
+  /*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;
@@ -1210,7 +1361,7 @@
     margin-bottom: 1rem;
   }
 
-   /* HotelClientCaseStudy
+  /* HotelClientCaseStudy
 
   .grid_current_state {
     display: grid;
@@ -1253,6 +1404,43 @@
     grid-column: 1 / 2;
     grid-row: 5 / 6;
   } */
+
+  /*Classes for Burn&Earn*/
+  .persona {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .ol {
+    list-style: decimal-leading-zero;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .wireframe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-rows: repeat(3 1fr);
+    margin-bottom: 1rem;
+  }
+
+.pickup {
+  grid-column: 1 / 2;
+}
+
+.squad {
+  grid-column: 3 / 4;
+}
+
+.levelup {
+  grid-column: 5 / 6;
+}
+
+  .wireframe {
+    max-height: 50vw;
+    margin-bottom: 1rem;
+  }
+
 }
 
 @media (min-width: 1200px) {
@@ -1329,6 +1517,17 @@
   }
 
   ul {
+    max-width: 65ch;
+    font-family: Petrona;
+    font-style: normal;
+    font-weight: 375;
+    font-size: 18px;
+    line-height: 150%;
+    color: var(--main-paragraph-color);
+    padding-bottom: 1.2rem;
+  }
+
+  ol {
     max-width: 65ch;
     font-family: Petrona;
     font-style: normal;
@@ -1449,7 +1648,7 @@
     margin-bottom: 1rem;
   }
 
-/*Subgroups of the tree test grid use before/after classes below*/
+  /*Subgroups of the tree test grid use before/after classes below*/
 
   .grid_before_after {
     display: grid;
@@ -1490,7 +1689,7 @@
     margin-bottom: 1rem;
   }
 
- /* HotelClientCaseStudy
+  /* HotelClientCaseStudy
 
   .grid_current_state {
     display: grid;
@@ -1546,4 +1745,39 @@
     background-color: #0487d31e;
   }
 
+  /*Classes for Burn&Earn*/
+  .persona {
+    max-width: 80vw;
+    margin-bottom: 1rem;
+  }
+
+  .ol {
+    list-style: decimal-leading-zero;
+    list-style-position: inside;
+    padding-top: .5rem;
+  }
+
+  .wireframe-grid {
+    display: grid;
+    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-rows: repeat(3 1fr);
+    margin-bottom: 1rem;
+  }
+
+.pickup {
+  grid-column: 1 / 2;
+}
+
+.squad {
+  grid-column: 3 / 4;
+}
+
+.levelup {
+  grid-column: 5 / 6;
+}
+
+  .wireframe {
+    max-height: 50vw;
+    margin-bottom: 1rem;
+  }
 }

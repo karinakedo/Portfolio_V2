@@ -432,23 +432,23 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-columns: repeat(3 1fr);
+    gap: 1rem;
     grid-template-rows: repeat(3 1fr);
     margin-bottom: 1rem;
   }
 
-.pickup {
-  grid-column: 1 / 2;
-}
+  .pickup {
+    grid-column: 1 / 2;
+  }
 
-.squad {
-  grid-column: 3 / 4;
-}
+  .squad {
+    grid-column: 3 / 4;
+  }
 
-.levelup {
-  grid-column: 1 / 2;
-  grid-row: 2;
-}
+  .levelup {
+    grid-column: 1 / 2;
+  }
 
   .wireframe {
     max-height: 80vw;
@@ -764,23 +764,23 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-columns: repeat(3 1fr);
+    gap: 1rem;
     grid-template-rows: repeat(3 1fr);
     margin-bottom: 1rem;
   }
 
-.pickup {
-  grid-column: 1 / 2;
-}
+  .pickup {
+    grid-column: 1 / 2;
+  }
 
-.squad {
-  grid-column: 3 / 4;
-}
+  .squad {
+    grid-column: 3 / 4;
+  }
 
-.levelup {
-  grid-column: 1 / 2;
-  grid-row: 2;
-}
+  .levelup {
+    grid-column: 1 / 2;
+  }
 
   .wireframe {
     max-height: 80vw;
@@ -1097,22 +1097,23 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-columns: repeat(3 1fr);
+    gap: 1rem;
     grid-template-rows: repeat(3 1fr);
     margin-bottom: 1rem;
   }
 
-.pickup {
-  grid-column: 1 / 2;
-}
+  .pickup {
+    grid-column: 1 / 2;
+  }
 
-.squad {
-  grid-column: 3 / 4;
-}
+  .squad {
+    grid-column: 3 / 4;
+  }
 
-.levelup {
-  grid-column: 5 / 6;
-}
+  .levelup {
+    grid-column: 5 / 6;
+  }
 
   .wireframe {
     max-height: 50vw;
@@ -1419,22 +1420,23 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-columns: repeat(3 1fr);
+    gap: 1rem;
     grid-template-rows: repeat(3 1fr);
     margin-bottom: 1rem;
   }
 
-.pickup {
-  grid-column: 1 / 2;
-}
+  .pickup {
+    grid-column: 1 / 2;
+  }
 
-.squad {
-  grid-column: 3 / 4;
-}
+  .squad {
+    grid-column: 3 / 4;
+  }
 
-.levelup {
-  grid-column: 5 / 6;
-}
+  .levelup {
+    grid-column: 5 / 6;
+  }
 
   .wireframe {
     max-height: 50vw;
@@ -1759,22 +1761,23 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: 1fr 1rem 1fr 1rem 1fr;
+    grid-template-columns: repeat(3 1fr);
+    gap: 1rem;
     grid-template-rows: repeat(3 1fr);
     margin-bottom: 1rem;
   }
 
-.pickup {
-  grid-column: 1 / 2;
-}
+  .pickup {
+    grid-column: 1 / 2;
+  }
 
-.squad {
-  grid-column: 3 / 4;
-}
+  .squad {
+    grid-column: 3 / 4;
+  }
 
-.levelup {
-  grid-column: 5 / 6;
-}
+  .levelup {
+    grid-column: 5 / 6;
+  }
 
   .wireframe {
     max-height: 50vw;

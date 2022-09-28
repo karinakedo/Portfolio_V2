@@ -37,7 +37,7 @@
 .body {
   background-color: var(--main-bg-color);
   display: grid;
-  grid-template-columns: 5vw 1fr 5vw;
+  grid-template-columns: 5vw 90vw 5vw;
 }
 
 .hero {
@@ -131,6 +131,7 @@
     line-height: 42px;
     color: var(--main-header-color);
     margin-top: 1rem;
+    text-align: center;
   }
 
   h2 {
@@ -142,6 +143,7 @@
     font-variant: small-caps;
     color: var(--main-text-color);
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h3 {
@@ -153,6 +155,7 @@
     color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h4 {
@@ -187,7 +190,7 @@
   }
 
   ol {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -207,7 +210,8 @@
     border: 1px solid #000e30;
     top: 0;
     left: 0;
-    height: 80vh;
+    max-width: 90vw;
+    height: 70vh;
     position: relative;
   }
 
@@ -215,8 +219,8 @@
     border: 1px solid #000e30;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 80vh;
+    width: 90vw;
+    height: 50vh;
     position: relative;
   }
 
@@ -285,10 +289,9 @@
   .sketch-grid {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
-    grid-template-rows: repeat(6, 1fr);
     max-width: 90vw;
     max-height: 100vh;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .sketch1 {
@@ -358,6 +361,11 @@
     margin-bottom: 1rem;
   }
 
+  .toggle {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+
   .alert {
     width: 100vw;
     padding-top: 1rem;
@@ -385,22 +393,22 @@
     margin-bottom: 1rem;
   } */
 
-  .page_layout {
-    /* grid-column: 1 / 2;
-    grid-row: 1 / 2; */
+  /* .page_layout {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   } */
 
-  .filtering {
-    /* grid-column: 1 / 2;
-    grid-row: 3 / 4; */
+  /* .filtering {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
     max-width: 80vw;
-  }
+  } */
 
   /* .filtering_caption {
     grid-column: 1 / 2;
@@ -410,7 +418,8 @@
   .hotel_cards {
     /* grid-column: 1 / 2;
   grid-row: 5 / 6; */
-    max-height: 80vh;
+    max-width: 90vw;
+    margin-bottom: 1rem;
   }
 
   /* .hotel_cards_caption {
@@ -418,12 +427,12 @@
   grid-row: 6 / 7;
 } */
 
-  /*Classes for Burn&Earn*/
   .fullwidthimage {
-    max-width: 80vw;
+    max-width: 90vw;
     margin-bottom: 1rem;
   }
 
+  /*Classes for Burn&Earn*/
   .ol {
     list-style: decimal-leading-zero;
     list-style-position: inside;
@@ -432,9 +441,8 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
     gap: 1rem;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-rows: 1fr 1fr;
     margin-bottom: 1rem;
   }
 
@@ -443,7 +451,7 @@
   }
 
   .squad {
-    grid-column: 3 / 4;
+    grid-column: 1 / 2;
   }
 
   .levelup {
@@ -451,10 +459,9 @@
   }
 
   .wireframe {
-    max-height: 80vw;
+    max-width: 100%;
     margin-bottom: 1rem;
   }
-
 }
 
 @media (min-width: 395px) {
@@ -486,6 +493,7 @@
     line-height: 48px;
     color: var(--main-header-color);
     margin-top: 1rem;
+    text-align: center;
   }
 
   h2 {
@@ -497,6 +505,7 @@
     font-variant: small-caps;
     color: var(--main-text-color);
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h3 {
@@ -508,6 +517,7 @@
     color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h4 {
@@ -542,7 +552,7 @@
   }
 
   ol {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -562,7 +572,7 @@
     border: 1px solid #000e30;
     top: 0;
     left: 0;
-    height: 80vh;
+    height: 90vh;
     position: relative;
   }
 
@@ -570,7 +580,7 @@
     border: 1px solid #000e30;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90vw;
     height: 80vh;
     position: relative;
   }
@@ -625,10 +635,9 @@
   .sketch-grid {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
-    grid-template-rows: repeat(6, 1fr);
     max-width: 90vw;
     max-height: 100vh;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .sketch1 {
@@ -705,6 +714,11 @@
     margin-bottom: 1rem;
   }
 
+  .toggle {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+
   .alert {
     width: 100vw;
     padding-top: 1rem;
@@ -723,22 +737,22 @@
     margin-bottom: 1rem;
   } */
 
-  .page_layout {
-    /* grid-column: 1 / 2;
-    grid-row: 1 / 2; */
+  /* .page_layout {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   } */
 
-  .filtering {
-    /* grid-column: 1 / 2;
-    grid-row: 3 / 4; */
+  /* .filtering {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
     max-width: 80vw;
-  }
+  } */
 
   /* .filtering_caption {
     grid-column: 1 / 2;
@@ -756,12 +770,12 @@
   grid-row: 6 / 7;
 } */
 
-  /*Classes for Burn&Earn*/
   .fullwidthimage {
-    max-width: 80vw;
+    max-width: 90vw;
     margin-bottom: 1rem;
   }
 
+  /*Classes for Burn&Earn*/
   .wireframe-grid {
     display: grid;
     grid-template-columns: repeat(3 1fr);
@@ -790,6 +804,12 @@
 }
 
 @media (min-width: 769px) {
+  .body {
+    background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-columns: 10vw 80vw 10vw;
+  }
+
   .grid-content {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -818,6 +838,7 @@
     line-height: 52px;
     color: var(--main-header-color);
     margin-top: 1rem;
+    text-align: center;
   }
 
   h2 {
@@ -829,6 +850,7 @@
     font-variant: small-caps;
     color: var(--main-text-color);
     padding-bottom: 1rem;
+    text-align: center;
   }
 
   h3 {
@@ -840,6 +862,7 @@
     color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h4 {
@@ -854,7 +877,7 @@
   }
 
   p {
-    max-width: 75ch;
+    /* max-width: 75ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -864,7 +887,7 @@
   }
 
   ul {
-    max-width: 75ch;
+    /* max-width: 75ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -875,7 +898,7 @@
   }
 
   ol {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -959,10 +982,9 @@
   .sketch-grid {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
-    grid-template-rows: repeat(6, 1fr);
     max-width: 90vw;
     max-height: 100vh;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .sketch1 {
@@ -1031,6 +1053,11 @@
     margin-bottom: 1rem;
   }
 
+  .toggle {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+
   .alert {
     width: 100vw;
     padding-top: 1rem;
@@ -1050,22 +1077,22 @@
     gap: 1rem;
   } */
 
-  .page_layout {
-    /* grid-column: 1 / 2;
-    grid-row: 1 / 2; */
+  /* .page_layout {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   } */
 
-  .filtering {
-    /* grid-column: 3 / 4;
-    grid-row: 1 / 2; */
+  /* .filtering {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .filtering_caption {
     grid-column-start: 3;
@@ -1083,12 +1110,12 @@
     grid-row: 5 / 6;
   } */
 
-  /*Classes for Burn&Earn*/
   .fullwidthimage {
     max-width: 80vw;
     margin-bottom: 1rem;
   }
 
+  /*Classes for Burn&Earn*/
   .ol {
     list-style: decimal-leading-zero;
     list-style-position: inside;
@@ -1097,9 +1124,7 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    gap: 1rem;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: 33% 33% 33%;
     margin-bottom: 1rem;
   }
 
@@ -1108,21 +1133,27 @@
   }
 
   .squad {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
   }
 
   .levelup {
-    grid-column: 5 / 6;
+    grid-column: 3 / 4;
   }
 
   .wireframe {
-    max-height: 50vw;
+    max-width: 100%;
     margin-bottom: 1rem;
   }
-
 }
 
+
 @media (min-width: 1025px) {
+  .body {
+    background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+  }
+
   .grid-content {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -1151,6 +1182,7 @@
     line-height: 52px;
     color: var(--main-header-color);
     margin-top: 1rem;
+    text-align: center;
   }
 
   h2 {
@@ -1162,6 +1194,7 @@
     font-variant: small-caps;
     color: var(--main-text-color);
     padding-bottom: 1rem;
+    text-align: center;
   }
 
   h3 {
@@ -1173,6 +1206,7 @@
     color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h4 {
@@ -1206,7 +1240,7 @@
   }
 
   ol {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -1290,10 +1324,9 @@
   .sketch-grid {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
-    grid-template-rows: repeat(6, 1fr);
     max-width: 90vw;
     max-height: 100vh;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .sketch1 {
@@ -1373,22 +1406,22 @@
     gap: 1rem;
   } */
 
-  .page_layout {
-    /* grid-column: 1 / 2;
-    grid-row: 1 / 2; */
+  /* .page_layout {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   } */
 
-  .filtering {
-    /* grid-column: 3 / 4;
-    grid-row: 1 / 2; */
+  /* .filtering {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .filtering_caption {
     grid-column-start: 3;
@@ -1406,12 +1439,25 @@
     grid-row: 5 / 6;
   } */
 
-  /*Classes for Burn&Earn*/
+  .toggle {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+
+  .alert {
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    background-color: #0487d31e;
+  }
+
   .fullwidthimage {
-    max-width: 80vw;
+    max-width: 60vw;
     margin-bottom: 1rem;
   }
 
+  /*Classes for Burn&Earn*/
   .ol {
     list-style: decimal-leading-zero;
     list-style-position: inside;
@@ -1420,9 +1466,7 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    gap: 1rem;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: 33% 33% 33%;
     margin-bottom: 1rem;
   }
 
@@ -1431,21 +1475,26 @@
   }
 
   .squad {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
   }
 
   .levelup {
-    grid-column: 5 / 6;
+    grid-column: 3 / 4;
   }
 
   .wireframe {
-    max-height: 50vw;
+    max-width: 100%;
     margin-bottom: 1rem;
   }
-
 }
 
 @media (min-width: 1200px) {
+  .body {
+    background-color: var(--main-bg-color);
+    display: grid;
+    grid-template-columns: 20vw 60vw 20vw;
+  }
+
   .grid-content {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -1473,6 +1522,7 @@
     font-size: 36px;
     line-height: 52px;
     color: var(--main-header-color);
+    text-align: center;
   }
 
   h2 {
@@ -1484,6 +1534,7 @@
     font-variant: small-caps;
     color: var(--main-text-color);
     padding-bottom: 1rem;
+    text-align: center;
   }
 
   h3 {
@@ -1495,6 +1546,7 @@
     color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
+    text-align: center;
   }
 
   h4 {
@@ -1509,7 +1561,7 @@
   }
 
   p {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -1519,7 +1571,7 @@
   }
 
   ul {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -1530,7 +1582,7 @@
   }
 
   ol {
-    max-width: 65ch;
+    /* max-width: 65ch; */
     font-family: Petrona;
     font-style: normal;
     font-weight: 375;
@@ -1618,10 +1670,9 @@
   .sketch-grid {
     display: grid;
     grid-template-columns: minmax(10vw, 45vw) minmax(10vw, 45vw) minmax(10vw, 45vw);
-    grid-template-rows: repeat(6 1fr);
     max-width: 90vw;
     max-height: 100vh;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
   }
 
   .sketch1 {
@@ -1702,22 +1753,22 @@
     gap: 1rem;
   } */
 
-  .page_layout {
-    /* grid-column: 1 / 2;
-    grid-row: 1 / 2; */
+  /* .page_layout {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .page_layout_caption {
     grid-column: 1 / 2;
     grid-row: 2 / 3;
   } */
 
-  .filtering {
-    /* grid-column: 3 / 4;
-    grid-row: 1 / 2; */
+  /* .filtering {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
     max-width: 80vw;
-  }
+  } */
 
   /* .filtering_caption {
     grid-column-start: 3;
@@ -1737,6 +1788,7 @@
 
   .toggle {
     display: inline-block;
+    margin-bottom: 2rem;
   }
 
   .alert {
@@ -1747,12 +1799,12 @@
     background-color: #0487d31e;
   }
 
-  /*Classes for Burn&Earn*/
   .fullwidthimage {
-    max-width: 80vw;
+    max-width: 60vw;
     margin-bottom: 1rem;
   }
 
+  /*Classes for Burn&Earn*/
   .ol {
     list-style: decimal-leading-zero;
     list-style-position: inside;
@@ -1761,9 +1813,7 @@
 
   .wireframe-grid {
     display: grid;
-    grid-template-columns: repeat(3 1fr);
-    gap: 1rem;
-    grid-template-rows: repeat(3 1fr);
+    grid-template-columns: 33% 33% 33%;
     margin-bottom: 1rem;
   }
 
@@ -1772,15 +1822,15 @@
   }
 
   .squad {
-    grid-column: 3 / 4;
+    grid-column: 2 / 3;
   }
 
   .levelup {
-    grid-column: 5 / 6;
+    grid-column: 3 / 4;
   }
 
   .wireframe {
-    max-height: 50vw;
+    max-width: 100%;
     margin-bottom: 1rem;
   }
 }

@@ -311,54 +311,21 @@
     margin-bottom: 1rem;
   }
 
-  .grid_tree_test {
+  .grid_two_columns {
     display: grid;
-    grid-template-columns: minmax(10vw, 90vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
     margin-bottom: 1rem;
   }
 
-  /*Subgroups of the tree test grid use before/after classes below*/
-
-  .grid_before_after {
-    display: grid;
-    grid-template-columns: minmax(10vw, 90vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
-    margin-bottom: 1rem;
-  }
-
-  .before {
+  .column1 {
     grid-column: 1 / 2;
-    grid-row: 1 / 2;
+    max-width: 100%;
   }
 
-  .before_img {
-    max-width: 80vw;
-  }
-
-  .after {
-    grid-column: 1 / 2;
-    grid-row: 2 / 4;
-  }
-
-  .after_img {
-    max-width: 80vw;
-  }
-
-  .after_caption {
-    grid-column: 1 / 2;
-    grid-row: 4 / 5;
-  }
-
-  .kpap_images_beforeafter {
-    max-width: 80vw;
-  }
-
-  .kpap_images {
-    max-width: 90vw;
-    margin-bottom: 1rem;
+  .column2 {
+    grid-column: 2 / 3;
+    max-width: 100%;
   }
 
   .toggle {
@@ -374,13 +341,21 @@
     background-color: #0487d31e;
   }
 
-
-  .grid_tree_test {
+  .grid_two_columns {
     display: grid;
-    grid-template-columns: minmax(10vw, 90vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
     margin-bottom: 1rem;
+  }
+
+  .column1 {
+    grid-column: 1 / 2;
+    max-width: 100%;
+  }
+
+  .column2 {
+    grid-column: 2 / 3;
+    max-width: 100%;
   }
 
   /* HotelClientCaseStudy
@@ -657,61 +632,21 @@
     margin-bottom: 1rem;
   }
 
-  .grid_tree_test {
+  .grid_two_columns {
     display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
     margin-bottom: 1rem;
   }
 
-  /*Subgroups of the tree test grid use before/after classes below*/
-
-  .kpap_sample_menu_structure_tree_test {
-    max-width: 45vw;
-  }
-
-  .KPAP_sample_task_from_tree_test {
-    max-width: 45vw;
-  }
-
-  .grid_before_after {
-    display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
-    margin-bottom: 1rem;
-  }
-
-  .before {
+  .column1 {
     grid-column: 1 / 2;
-    grid-row: 1 / 4;
+    max-width: 100%;
   }
 
-  .before_img {
-    max-width: 80vw;
-  }
-
-  .after {
-    grid-column: 3 / 4;
-    grid-row: 1 / 4;
-  }
-
-  .after_img {
-    max-width: 80vw;
-  }
-
-  .after_caption {
-    grid-row: 4 / 5;
-  }
-
-  .kpap_images_beforeafter {
-    max-width: 40vw;
-  }
-
-  .kpap_images {
-    max-width: 80vw;
-    margin-bottom: 1rem;
+  .column2 {
+    grid-column: 2 / 3;
+    max-width: 100%;
   }
 
   .toggle {
@@ -1004,53 +939,21 @@
     margin-bottom: 1rem;
   }
 
-  .grid_tree_test {
+  .grid_two_columns {
     display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
     margin-bottom: 1rem;
   }
 
-  /*Subgroups of the tree test grid use before/after classes below*/
-
-  .grid_before_after {
-    display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
-    margin-bottom: 1rem;
-  }
-
-  .before {
+  .column1 {
     grid-column: 1 / 2;
-    grid-row: 1 / 4;
+    max-width: 100%;
   }
 
-  .before_img {
-    max-width: 80vw;
-  }
-
-  .after {
-    grid-column: 3 / 4;
-    grid-row: 1 / 4;
-  }
-
-  .after_img {
-    max-width: 80vw;
-  }
-
-  .after_caption {
-    grid-row: 4 / 5;
-  }
-
-  .kpap_images_beforeafter {
-    max-width: 40vw;
-  }
-
-  .kpap_images {
-    max-width: 80vw;
-    margin-bottom: 1rem;
+  .column2 {
+    grid-column: 2 / 3;
+    max-width: 100%;
   }
 
   .toggle {
@@ -1346,53 +1249,21 @@
     margin-bottom: 1rem;
   }
 
-  .grid_tree_test {
+  .grid_two_columns {
     display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
     margin-bottom: 1rem;
   }
 
-  /*Subgroups of the tree test grid use before/after classes below*/
-
-  .grid_before_after {
-    display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
-    margin-bottom: 1rem;
-  }
-
-  .before {
+  .column1 {
     grid-column: 1 / 2;
-    grid-row: 1 / 4;
+    max-width: 100%;
   }
 
-  .before_img {
-    max-width: 80vw;
-  }
-
-  .after {
-    grid-column: 3 / 4;
-    grid-row: 1 / 4;
-  }
-
-  .after_img {
-    max-width: 80vw;
-  }
-
-  .after_caption {
-    grid-row: 4 / 5;
-  }
-
-  .kpap_images_beforeafter {
-    max-width: 40vw;
-  }
-
-  .kpap_images {
-    max-width: 80vw;
-    margin-bottom: 1rem;
+  .column2 {
+    grid-column: 2 / 3;
+    max-width: 100%;
   }
 
   /* HotelClientCaseStudy
@@ -1693,53 +1564,21 @@
     width: 80%;
   }
 
-  .grid_tree_test {
+  .grid_two_columns {
     display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
+    grid-template-columns: 50% 50%;
+    gap: 1rem;
     margin-bottom: 1rem;
   }
 
-  /*Subgroups of the tree test grid use before/after classes below*/
-
-  .grid_before_after {
-    display: grid;
-    grid-template-columns: minmax(10vw, 45vw) 1rem minmax(10vw, 45vw);
-    grid-template-rows: max-content max-content max-content max-content max-content;
-    max-width: 90vw;
-    margin-bottom: 1rem;
-  }
-
-  .before {
+  .column1 {
     grid-column: 1 / 2;
-    grid-row: 1 / 4;
+    max-width: 100%;
   }
 
-  .before_img {
-    max-width: 80vw;
-  }
-
-  .after {
-    grid-column: 3 / 4;
-    grid-row: 1 / 4;
-  }
-
-  .after_img {
-    max-width: 80vw;
-  }
-
-  .after_caption {
-    grid-row: 4 / 5;
-  }
-
-  .kpap_images_beforeafter {
-    max-width: 40vw;
-  }
-
-  .kpap_images {
-    max-width: 80vw;
-    margin-bottom: 1rem;
+  .column2 {
+    grid-column: 2 / 3;
+    max-width: 100%;
   }
 
   /* HotelClientCaseStudy
@@ -1830,7 +1669,7 @@
   }
 
   .wireframe {
-    max-width: 100%;
+    max-height: 80vh;
     margin-bottom: 1rem;
   }
 }

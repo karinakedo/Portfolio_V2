@@ -130,7 +130,7 @@
     font-size: 28px;
     line-height: 42px;
     color: var(--main-header-color);
-    margin-top: 1rem;
+    margin-top: 4rem;
     text-align: center;
   }
 
@@ -467,7 +467,7 @@
     font-size: 32px;
     line-height: 48px;
     color: var(--main-header-color);
-    margin-top: 1rem;
+    margin-top: 4rem;
     text-align: center;
   }
 
@@ -772,7 +772,7 @@
     font-size: 36px;
     line-height: 52px;
     color: var(--main-header-color);
-    margin-top: 1rem;
+    margin-top: 4rem;
     text-align: center;
   }
 
@@ -1054,7 +1054,7 @@
   .body {
     background-color: var(--main-bg-color);
     display: grid;
-    grid-template-columns: 20vw 60vw 20vw;
+    grid-template-columns: 25vw 50vw 25vw;
   }
 
   .grid-content {
@@ -1084,7 +1084,7 @@
     font-size: 36px;
     line-height: 52px;
     color: var(--main-header-color);
-    margin-top: 1rem;
+    margin-top: 4rem;
     text-align: center;
   }
 
@@ -1363,7 +1363,7 @@
   .body {
     background-color: var(--main-bg-color);
     display: grid;
-    grid-template-columns: 20vw 60vw 20vw;
+    grid-template-columns: 25vw 50vw 25vw;
   }
 
   .grid-content {
@@ -1393,6 +1393,7 @@
     font-size: 36px;
     line-height: 52px;
     color: var(--main-header-color);
+    margin-top: 4rem;
     text-align: center;
   }
 

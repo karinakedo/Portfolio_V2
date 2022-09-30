@@ -26,11 +26,11 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #000e30;
-    --main-text-color: #E2817B;
+    --main-text-color: ##ECCF59;
     --main-paragraph-color: #ECEBE4;
     --main-header-color: #ECEBE4;
     --main-section-header-color: #0487d3;
-    --main-hover-color: #E74820;
+    --main-hover-color: #FFDF64;
   }
 }
 

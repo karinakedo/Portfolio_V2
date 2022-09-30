@@ -26,7 +26,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #000e30;
-    --main-text-color: ##ECCF59;
+    --main-text-color: #ECCF59;
     --main-paragraph-color: #ECEBE4;
     --main-header-color: #ECEBE4;
     --main-section-header-color: #0487d3;

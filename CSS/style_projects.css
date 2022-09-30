@@ -16,6 +16,8 @@
 
 :root {
   --main-bg-color: #F9F5EE;
+  --main-logo-front: #90afff;
+  --main-logo-edges: #002480;
   --main-text-color: #002480;
   --main-paragraph-color: #011d67;
   --main-header-color: #FF400F;
@@ -26,11 +28,13 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --main-bg-color: #000e30;
-    --main-text-color: #ECCF59;
+    --main-logo-front: #90afff;
+    --main-logo-edges: #2655c4;
+    --main-text-color: #95E7C5;
     --main-paragraph-color: #ECEBE4;
     --main-header-color: #ECEBE4;
     --main-section-header-color: #0487d3;
-    --main-hover-color: #FFDF64;
+    --main-hover-color: #77B89D;
   }
 }
 

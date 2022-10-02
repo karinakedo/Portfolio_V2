@@ -168,7 +168,7 @@
     font-weight: 700;
     font-size: 16px;
     line-height: 150%;
-    color: var(--main-text-color);
+    color: var(--main-section-header-color);
     margin-top: 2rem;
     margin-bottom: 1rem;
   }

@@ -631,10 +631,10 @@
     max-width: 100%;
   }
 
-  .solcom-images {
+  /* .solcom-images {
     max-width: 80vw;
     margin-bottom: 1rem;
-  }
+  } */
 
   .grid_two_columns {
     display: grid;
